@@ -1,0 +1,144 @@
+{
+  "headline": "The Enforcement Directorate conducted raids linked to the 2016 VPDO exam case, seizing cash and gold from the personal assistant of Congress leader Harish Rawat, leading to varying reports on Rawat's resignation from party posts.",
+  "read_seconds": 90,
+  "affects": [
+    "Politicians",
+    "Indian National Congress party",
+    "Law enforcement agencies",
+    "Public administration"
+  ],
+  "regions": [
+    "Uttarakhand",
+    "India (national context)"
+  ],
+  "agreed_facts": [
+    {
+      "text": "The Enforcement Directorate (ED) conducted searches.",
+      "sources": [
+        "The Hindu",
+        "Hindustan Times",
+        "Indian Express",
+        "Deccan Herald"
+      ]
+    },
+    {
+      "text": "The searches were conducted at the premises of Chandan Singh Jeena.",
+      "sources": [
+        "The Hindu",
+        "Hindustan Times",
+        "Indian Express",
+        "Deccan Herald"
+      ]
+    },
+    {
+      "text": "Chandan Singh Jeena is identified as the personal assistant (PA) to Congress leader Harish Rawat.",
+      "sources": [
+        "The Hindu",
+        "Hindustan Times",
+        "Indian Express",
+        "Deccan Herald"
+      ]
+    },
+    {
+      "text": "Approximately ₹32 lakh in cash was seized during the raids.",
+      "sources": [
+        "The Hindu",
+        "Hindustan Times",
+        "Indian Express"
+      ]
+    },
+    {
+      "text": "Gold and luxury watches were also recovered during the searches.",
+      "sources": [
+        "The Hindu",
+        "Indian Express",
+        "Hindustan Times",
+        "Deccan Herald"
+      ]
+    },
+    {
+      "text": "The searches are linked to the 2016 VPDO (Village Panchayat Development Officer) exam case.",
+      "sources": [
+        "The Hindu",
+        "Hindustan Times"
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "point": "Whether Harish Rawat has formally resigned from his Congress party posts.",
+      "positions": [
+        {
+          "outlet": "The Hindu",
+          "claim": "Harish Rawat resigns from Congress posts."
+        },
+        {
+          "outlet": "Hindustan Times (Clarification)",
+          "claim": "Harish Rawat clarifies he hasn't quit Congress posts, but may resign."
+        },
+        {
+          "outlet": "Indian Express",
+          "claim": "Harish Rawat quits Congress posts."
+        },
+        {
+          "outlet": "Deccan Herald (Don't want party to suffer)",
+          "claim": "Harish Rawat quits Congress posts."
+        },
+        {
+          "outlet": "Deccan Herald (Runs in my blood)",
+          "claim": "Ex-Uttarakhand CM Harish Rawat quits party posts."
+        }
+      ]
+    }
+  ],
+  "framing": [
+    {
+      "outlet": "The Hindu",
+      "note": "Focuses on Harish Rawat's resignation from Congress posts as a direct consequence of the ED's recovery of items from his PA."
+    },
+    {
+      "outlet": "Hindustan Times (Clarification)",
+      "note": "Highlights Harish Rawat's clarification that he has not yet resigned, but is considering doing so, emphasizing the ongoing uncertainty."
+    },
+    {
+      "outlet": "Indian Express",
+      "note": "Directly reports that Harish Rawat has quit his Congress posts following the recovery of gold and luxury watches from his aide's home."
+    },
+    {
+      "outlet": "Hindustan Times (Why ED Raids)",
+      "note": "Explores the underlying reasons and context for the ED raids on Harish Rawat's PA, focusing on the 'why' of the investigation."
+    },
+    {
+      "outlet": "Deccan Herald (Don't want party to suffer)",
+      "note": "Emphasizes Harish Rawat's stated motivation for quitting his posts, specifically his desire for the party not to suffer due to the allegations."
+    },
+    {
+      "outlet": "Deccan Herald (Runs in my blood)",
+      "note": "Combines Harish Rawat's strong emotional statement about his connection to the Congress party with the news of his resignation after the seizures."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "ED",
+      "plain": "The Enforcement Directorate is a multi-disciplinary organization in India responsible for enforcing economic laws and combating financial crime."
+    },
+    {
+      "term": "PA",
+      "plain": "A Personal Assistant is an individual employed to provide administrative, secretarial, or personal support to a specific person."
+    },
+    {
+      "term": "VPDO exam case",
+      "plain": "The Village Panchayat Development Officer exam case refers to a legal investigation into alleged irregularities or corruption surrounding the examination process for recruiting government officers at the village level."
+    }
+  ],
+  "people": [
+    {
+      "name": "Harish Rawat",
+      "who": "A prominent leader of the Indian National Congress and former Chief Minister of Uttarakhand, who is in the news following ED raids on his personal assistant."
+    },
+    {
+      "name": "Chandan Singh Jeena",
+      "who": "The personal assistant to Harish Rawat, whose premises were raided by the Enforcement Directorate, leading to the seizure of cash and valuables in connection with a 2016 exam case."
+    }
+  ]
+}

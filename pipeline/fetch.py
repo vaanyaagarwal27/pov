@@ -7,7 +7,7 @@ import hashlib
 import os
 import re
 import socket
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 # Every network call will give up after 10 seconds
@@ -116,6 +116,9 @@ FEEDS = [
 
 # The file where all articles are stored
 OUTPUT_FILE = "articles.json"
+
+# Articles older than this many hours are dropped when saving
+CUTOFF_HOURS = 48
 
 
 # ── Helper functions ───────────────────────────────────────────────────────────
@@ -242,6 +245,24 @@ for article in all_fetched:
     if article["id"] not in existing:
         existing[article["id"]] = article
         added += 1
+
+# ── Step 3b: Drop articles older than CUTOFF_HOURS ────────────────────────────
+# Articles with a missing or unparseable date are kept so real news isn't lost.
+cutoff = datetime.utcnow() - timedelta(hours=CUTOFF_HOURS)
+kept = {}
+dropped = 0
+for aid, article in existing.items():
+    pub = article.get("published", "")
+    try:
+        date = datetime.fromisoformat(pub) if pub else None
+    except ValueError:
+        date = None
+    if date is None or date >= cutoff:
+        kept[aid] = article
+    else:
+        dropped += 1
+existing = kept
+print(f"Recency filter ({CUTOFF_HOURS}h): kept {len(existing)}, dropped {dropped} as too old")
 
 # ── Step 4: Save the updated collection back to disk ──────────────────────────
 save_articles(OUTPUT_FILE, existing)

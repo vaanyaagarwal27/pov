@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>POV — Story Demo</title>
+  <style>
+    body       { font-family: monospace; max-width: 860px; margin: 2rem auto; padding: 0 1rem; color: #000; background: #fff; }
+    h1         { margin: 0 0 .25rem; }
+    #count     { margin-bottom: 1.5rem; }
+    .story     { border: 2px solid #000; padding: 1rem; margin-bottom: 2rem; }
+    .headline  { font-size: 1.1rem; font-weight: bold; margin-bottom: .5rem; }
+    .meta      { margin-bottom: .5rem; }
+    .pills     { margin-bottom: .5rem; }
+    .pill      { display: inline-block; border: 1px solid #000; padding: 1px 6px; margin: 2px; font-size: .85rem; }
+    .section   { border: 1px solid #000; padding: .5rem; margin-top: .5rem; }
+    .sec-label { font-weight: bold; font-size: .8rem; letter-spacing: .05em; margin-bottom: .35rem; }
+    .row       { border: 1px solid #999; padding: .35rem .5rem; margin: .25rem 0; }
+    .sub       { margin-left: 1rem; border-left: 2px solid #ccc; padding-left: .5rem; margin-top: .25rem; }
+    .error     { border: 3px solid red; padding: 1rem; color: red; font-weight: bold; }
+    .empty     { color: #888; font-style: italic; }
+  </style>
+</head>
+<body>
+
+<h1>POV — Story Demo</h1>
+<div id="count">Loading…</div>
+<div id="root"></div>
+
+<script>
+  /* Escape HTML so user-supplied text can't inject markup */
+  function e(s) {
+    return String(s ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  /* Render a labelled box that holds zero or more rows */
+  function section(label, rows) {
+    const inner = rows.length
+      ? rows.map(r => `<div class="row">${r}</div>`).join('')
+      : `<span class="empty">none</span>`;
+    return `<div class="section"><div class="sec-label">${label}</div>${inner}</div>`;
+  }
+
+  function renderStory(s, idx) {
+    /* ── meta line ───────────────────────────────────────────────────── */
+    const regions = (s.regions ?? []).join(' · ') || '—';
+    const meta =
+      `${e(s.source_count)} sources &nbsp;|&nbsp; ` +
+      `~${e(s.read_seconds)}s read &nbsp;|&nbsp; ` +
+      `${e(regions)}`;
+
+    /* ── affects pills ───────────────────────────────────────────────── */
+    const pills = (s.affects ?? [])
+      .map(a => `<span class="pill">${e(a)}</span>`)
+      .join('') || '<span class="empty">—</span>';
+
+    /* ── agreed facts ────────────────────────────────────────────────── */
+    const agreedRows = (s.agreed_facts ?? []).map(f => {
+      const srcs = (f.sources ?? []).map(e).join(', ');
+      return `${e(f.text)} <span style="color:#555">[${srcs}]</span>`;
+    });
+
+    /* ── contested ───────────────────────────────────────────────────── */
+    const contestedRows = (s.contested ?? []).map(c => {
+      const positions = (c.positions ?? [])
+        .map(p => `<div class="sub"><strong>${e(p.outlet)}</strong> → ${e(p.claim)}</div>`)
+        .join('');
+      return `<strong>${e(c.point)}</strong>${positions}`;
+    });
+
+    /* ── framing ─────────────────────────────────────────────────────── */
+    const framingRows = (s.framing ?? []).map(f =>
+      `<strong>${e(f.outlet)}</strong> → ${e(f.note)}`
+    );
+
+    /* ── jargon ──────────────────────────────────────────────────────── */
+    const jargonRows = (s.jargon ?? []).map(j =>
+      `<strong>${e(j.term)}</strong>: ${e(j.plain)}`
+    );
+
+    /* ── people ──────────────────────────────────────────────────────── */
+    const peopleRows = (s.people ?? []).map(p =>
+      `<strong>${e(p.name)}</strong>: ${e(p.who)}`
+    );
+
+    return `
+      <div class="story">
+        <div class="headline">${idx + 1}. ${e(s.headline)}</div>
+        <div class="meta">${meta}</div>
+        <div class="pills">${pills}</div>
+        ${section('AGREED FACTS', agreedRows)}
+        ${section('CONTESTED', contestedRows)}
+        ${section('FRAMING BY OUTLET', framingRows)}
+        ${section('JARGON', jargonRows)}
+        ${section('PEOPLE', peopleRows)}
+      </div>`;
+  }
+
+  fetch('stories.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status} — ${r.statusText}`);
+      return r.json();
+    })
+    .then(stories => {
+      document.getElementById('count').textContent =
+        `${stories.length} stor${stories.length === 1 ? 'y' : 'ies'}`;
+      document.getElementById('root').innerHTML =
+        stories.map((s, i) => renderStory(s, i)).join('');
+    })
+    .catch(err => {
+      document.getElementById('count').textContent = '';
+      document.getElementById('root').innerHTML =
+        `<div class="error">Failed to load stories.json: ${e(err.message)}</div>`;
+    });
+</script>
+</body>
+</html>

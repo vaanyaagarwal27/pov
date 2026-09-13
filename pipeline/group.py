@@ -3,12 +3,13 @@
 
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict, Counter
 
-# ── Tuning — change these two numbers to make grouping tighter or looser ───────
+# ── Tuning — change these numbers to make grouping tighter or looser ───────────
 MIN_SHARED_KEYWORDS = 3   # articles must share at least this many keywords
 MAX_DAY_GAP         = 3   # articles must be published within this many days
+RECENCY_HOURS       = 36  # only group articles published within this many hours
 
 INPUT_FILE  = "articles.json"
 OUTPUT_FILE = "groups.json"
@@ -71,7 +72,22 @@ def within_window(date_a, date_b):
 print(f"Loading {INPUT_FILE} …")
 with open(INPUT_FILE, "r", encoding="utf-8") as fh:
     articles = json.load(fh)
-print(f"  {len(articles)} articles loaded.\n")
+print(f"  {len(articles)} articles loaded.")
+
+# ── Step 1b: Keep only articles within RECENCY_HOURS ──────────────────────────
+# Articles with a missing or unparseable date are kept so real news isn't lost.
+cutoff   = datetime.utcnow() - timedelta(hours=RECENCY_HOURS)
+filtered = []
+for a in articles:
+    pub = a.get("published", "")
+    try:
+        date = datetime.fromisoformat(pub) if pub else None
+    except ValueError:
+        date = None
+    if date is None or date >= cutoff:
+        filtered.append(a)
+articles = filtered
+print(f"  {len(articles)} articles within the last {RECENCY_HOURS}h.\n")
 
 # ── Step 2: Pre-compute keywords and dates for every article ───────────────────
 # Doing this once up front is much faster than re-computing inside the pair loop.
