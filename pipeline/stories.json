@@ -1,190 +1,67 @@
 [
   {
-    "headline": "BRICS Summit Concludes: Modi Calls for Action, China Takes Chair",
+    "headline": "Houthis Seize Island, Saudi Pipeline Closed Amid Red Sea Tensions",
     "read_seconds": 90,
     "topics": [
       "politics",
-      "world",
-      "health"
+      "world"
     ],
     "affects": [
-      "Global South",
-      "international trade",
-      "public health"
+      "global shipping",
+      "oil markets",
+      "Yemeni civilians"
     ],
     "regions": [
-      "India",
-      "China",
+      "Yemen",
+      "Saudi Arabia",
+      "Red Sea",
       "global"
     ],
     "agreed_facts": [
       {
-        "text": "PM Modi spoke at the BRICS Summit.",
-        "sources": [
-          "The Hindu",
-          "Hindustan Times",
-          "NDTV",
-          "New Indian Express",
-          "Indian Express"
-        ]
-      },
-      {
-        "text": "PM Modi stressed the need for \"concrete results\" from the grouping.",
-        "sources": [
-          "Hindustan Times",
-          "NDTV",
-          "New Indian Express"
-        ]
-      },
-      {
-        "text": "The summit marked BRICS entering its \"third decade\".",
-        "sources": [
-          "Hindustan Times",
-          "New Indian Express"
-        ]
-      },
-      {
-        "text": "China assumed the BRICS chairship.",
-        "sources": [
-          "New Indian Express"
-        ]
-      }
-    ],
-    "contested": [
-      {
-        "point": "The primary message or focus of PM Modi's concluding remarks.",
-        "positions": [
-          {
-            "outlet": "The Hindu",
-            "claim": "Modi focused on India's four pillars (resilience, innovation, cooperation, sustainability) and warned against weaponisation of technology and critical minerals."
-          },
-          {
-            "outlet": "Hindustan Times",
-            "claim": "Modi emphasized the world's expectation for BRICS to deliver \"concrete results\" rather than just ideas, as it enters its third decade."
-          }
-        ]
-      },
-      {
-        "point": "Key non-Modi contributions or specific outcomes highlighted from the summit.",
-        "positions": [
-          {
-            "outlet": "Hindustan Times",
-            "claim": "Highlighted China's Xi Jinping calling for stronger Global South ties and proposing five initiatives for a rules-based international order."
-          },
-          {
-            "outlet": "NDTV",
-            "claim": "Noted BRICS leaders' recognition of obesity and non-communicable diseases as major global health challenges."
-          }
-        ]
-      }
-    ],
-    "framing": [
-      {
-        "outlet": "The Hindu",
-        "note": "Focused on India's strategic priorities and specific warnings by PM Modi regarding technology and critical minerals."
-      },
-      {
-        "outlet": "NDTV",
-        "note": "Highlighted the BRICS leaders' recognition of obesity and non-communicable diseases as major global health challenges."
-      },
-      {
-        "outlet": "Hindustan Times",
-        "note": "Emphasized China's President Xi Jinping's call for stronger Global South ties and his five initiatives for a global order."
-      }
-    ],
-    "jargon": [
-      {
-        "term": "Global South",
-        "plain": "A term used to refer to countries in Africa, Latin America, and Asia, often characterized by developing economies and a shared history of colonialism."
-      },
-      {
-        "term": "Critical minerals",
-        "plain": "Raw materials essential for modern technology and economy, whose supply may be at risk due to geological scarcity, geopolitical issues, or trade policies."
-      },
-      {
-        "term": "Rules-based international order",
-        "plain": "A framework of principles, laws, and institutions that govern relations between states, typically based on international law and agreements."
-      }
-    ],
-    "people": [
-      {
-        "name": "Narendra Modi",
-        "who": "The Prime Minister of India, who delivered remarks at the BRICS Summit."
-      },
-      {
-        "name": "Xi Jinping",
-        "who": "The President of China, who called for stronger Global South ties and proposed initiatives at the summit."
-      }
-    ],
-    "id": "67755f8d9f7387aa8f1f03de840347be",
-    "source_count": 13,
-    "published": ""
-  },
-  {
-    "headline": "Mideast Tensions Escalate: Pipeline Shut, Houthis Seize Strategic Island",
-    "read_seconds": 90,
-    "topics": [
-      "politics",
-      "economy",
-      "world"
-    ],
-    "affects": [
-      "oil markets",
-      "global shipping",
-      "regional stability"
-    ],
-    "regions": [
-      "Saudi Arabia",
-      "Yemen",
-      "Red Sea",
-      "Middle East"
-    ],
-    "agreed_facts": [
-      {
-        "text": "Saudi Arabia has shut down a key oil pipeline.",
-        "sources": [
-          "The Guardian",
-          "Reuters"
-        ]
-      },
-      {
-        "text": "Yemen's Houthis have advanced and seized a strategic island (Mayun/Perim) in the Red Sea/Bab al-Mandab Strait.",
+        "text": "Yemen's Houthi forces have seized Mayun (Perim) Island in the Bab al-Mandab Strait.",
         "sources": [
           "Al Jazeera",
           "AP",
-          "The Guardian"
+          "The Guardian",
+          "Reuters"
         ]
       },
       {
-        "text": "The pipeline shutdown is linked to alleged drone attacks.",
+        "text": "Saudi Arabia has shut down its East-West oil pipeline.",
         "sources": [
           "The Guardian",
           "Reuters"
         ]
       },
       {
-        "text": "Houthi control of the island and advances threaten shipping in the Bab al-Mandab Strait.",
+        "text": "The pipeline shutdown is attributed to drone attacks.",
         "sources": [
+          "The Guardian",
+          "AP"
+        ]
+      },
+      {
+        "text": "The Bab al-Mandab Strait is a critical global shipping route.",
+        "sources": [
+          "The Guardian",
+          "Al Jazeera",
           "AP",
-          "The Guardian"
+          "Reuters"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The origin and responsibility for the drone attacks on the Saudi pipeline.",
+        "point": "Responsibility for drone attacks on Saudi pipeline.",
         "positions": [
           {
             "outlet": "The Guardian",
-            "claim": "Saudi Arabia blames militants in Iraq for launching drone attacks."
-          },
-          {
-            "outlet": "Iraq (via AP)",
-            "claim": "Iraq says the Saudi pipeline attack originated from its territory."
+            "claim": "Blames militants in Iraq."
           },
           {
             "outlet": "Reuters",
-            "claim": "Donald Trump says Iran is probably responsible for the attack."
+            "claim": "Reports Trump's statement attributing probable responsibility to Iran."
           }
         ]
       }
@@ -192,35 +69,35 @@
     "framing": [
       {
         "outlet": "The Guardian",
-        "note": "Leads by connecting events to a broader 'US-Israeli war against Iran' and a 'global struggle for control' of vital waterways."
+        "note": "Highlights the humanitarian crisis in Yemen and links events to the broader regional conflict."
       },
       {
-        "outlet": "AP",
-        "note": "Reports on Houthi actions and the pipeline attack as separate, developing 'Mideast developments' with less direct geopolitical analysis in the summary."
+        "outlet": "Al Jazeera",
+        "note": "Focuses on the Houthis' strategic gains and control over the Bab al-Mandeb Strait."
       },
       {
         "outlet": "Reuters",
-        "note": "Primarily focuses on the pipeline shutdown in relation to Houthi actions in the Red Sea, and on specific accusations regarding the attack."
+        "note": "Presents concise factual updates and reports direct statements from officials regarding responsibility."
       }
     ],
     "jargon": [
       {
         "term": "Bab al-Mandab Strait",
-        "plain": "A narrow waterway between Yemen and Djibouti connecting the Red Sea to the Gulf of Aden, crucial for international shipping."
+        "plain": "A narrow, vital waterway connecting the Red Sea to the Gulf of Aden, crucial for global shipping."
+      },
+      {
+        "term": "Houthi",
+        "plain": "An armed political and religious movement that controls significant territory in western Yemen."
       },
       {
         "term": "Strait of Hormuz",
-        "plain": "A narrow sea passage between the Persian Gulf and the Gulf of Oman, vital for the global oil trade."
-      },
-      {
-        "term": "Houthis",
-        "plain": "An Iran-backed Shia political and military organization that controls much of western Yemen."
+        "plain": "A critical choke point for oil shipping, located at the entrance to the Persian Gulf."
       }
     ],
     "people": [
       {
         "name": "Donald Trump",
-        "who": "The former President of the United States who commented on the pipeline attack."
+        "who": "The President of the United States who commented on the pipeline attack's likely perpetrator."
       }
     ],
     "id": "485a3fac6dd0e9949fe76538400d7731",
@@ -228,129 +105,23 @@
     "published": ""
   },
   {
-    "headline": "Tamil Nadu Bypolls, CM Visit Stir Political Landscape",
+    "headline": "Rahul Gandhi Sparks BRICS Dinner Menu Debate",
     "read_seconds": 90,
     "topics": [
       "politics",
-      "economy"
+      "culture"
     ],
     "affects": [
-      "voters",
-      "politicians",
-      "Tamil Nadu residents"
+      "Politicians",
+      "Delegates",
+      "Public opinion"
     ],
     "regions": [
-      "Tamil Nadu",
-      "national"
+      "India"
     ],
     "agreed_facts": [
       {
-        "text": "By-elections are scheduled for Madurantakam and Dharapuram constituencies.",
-        "sources": [
-          "The Hindu",
-          "Indian Express",
-          "New Indian Express"
-        ]
-      },
-      {
-        "text": "Tamil Nadu Chief Minister C. Joseph Vijay made an official visit to the UK.",
-        "sources": [
-          "Hindustan Times",
-          "Indian Express"
-        ]
-      },
-      {
-        "text": "The TVK, AIADMK, and Left parties have announced candidates for the upcoming bypolls.",
-        "sources": [
-          "The Hindu",
-          "New Indian Express"
-        ]
-      },
-      {
-        "text": "The DMK has criticized the TVK-led government on various issues.",
-        "sources": [
-          "The Hindu",
-          "Hindustan Times"
-        ]
-      }
-    ],
-    "contested": [
-      {
-        "point": "The purpose and appropriateness of Chief Minister Vijay's UK visit.",
-        "positions": [
-          {
-            "outlet": "Hindustan Times (DMK claim)",
-            "claim": "Chief Minister Vijay's visit was primarily for personal reasons, specifically to watch a friend's car race."
-          },
-          {
-            "outlet": "Hindustan Times (TVK defense)",
-            "claim": "The Chief Minister's trip was part of an official effort to promote 'Brand Tamil Nadu'."
-          }
-        ]
-      }
-    ],
-    "framing": [
-      {
-        "outlet": "The Hindu",
-        "note": "Focuses on the opposition's strong accusations against the TVK government's performance and leadership."
-      },
-      {
-        "outlet": "Hindustan Times",
-        "note": "Frames the CM's UK visit as a political controversy, presenting both critical and defensive viewpoints."
-      },
-      {
-        "outlet": "Indian Express",
-        "note": "Covers the UK visit as a celebrity social event, focusing on the interaction between film personalities."
-      }
-    ],
-    "jargon": [
-      {
-        "term": "Bypolls",
-        "plain": "An election held to fill a political office that has become vacant between general elections."
-      },
-      {
-        "term": "DMK",
-        "plain": "Dravida Munnetra Kazhagam, a major political party in Tamil Nadu, currently in opposition."
-      },
-      {
-        "term": "TVK",
-        "plain": "Tamizhaga Vetri Kazhagam, the ruling political party in Tamil Nadu."
-      }
-    ],
-    "people": [
-      {
-        "name": "C. Joseph Vijay",
-        "who": "The Chief Minister of Tamil Nadu, whose government is facing criticism and whose foreign trip caused controversy."
-      },
-      {
-        "name": "Udhayanidhi Stalin",
-        "who": "A leader of the opposition DMK party and former Deputy Chief Minister, who voiced strong criticism of the current government."
-      },
-      {
-        "name": "Ajith Kumar",
-        "who": "A prominent actor mentioned in connection with Chief Minister Vijay's visit to the UK."
-      }
-    ],
-    "id": "9672494ebca44ba579869f5c1cae7243",
-    "source_count": 5,
-    "published": ""
-  },
-  {
-    "headline": "Rahul Gandhi Sparks Debate Over BRICS Vegetarian Dinner Menu",
-    "read_seconds": 90,
-    "topics": [
-      "politics"
-    ],
-    "affects": [
-      "politicians",
-      "public debate"
-    ],
-    "regions": [
-      "national"
-    ],
-    "agreed_facts": [
-      {
-        "text": "Rahul Gandhi stated that 80% of Indians are non-vegetarian and Indian non-vegetarian food is delicious.",
+        "text": "Rahul Gandhi stated that 80% of Indians are non-vegetarian.",
         "sources": [
           "The Hindu",
           "India Today",
@@ -358,34 +129,38 @@
         ]
       },
       {
-        "text": "The BRICS Summit dinner menu, hosted by Prime Minister Narendra Modi, was entirely vegetarian.",
+        "text": "His remark sparked a debate concerning the all-vegetarian BRICS dinner menu.",
         "sources": [
-          "The Hindu",
           "India Today",
           "Livemint",
           "Hindustan Times"
         ]
       },
       {
-        "text": "Gandhi's remarks sparked a political debate and drew criticism from the Bharatiya Janata Party (BJP).",
+        "text": "The Bharatiya Janata Party (BJP) responded critically to Gandhi's comments.",
         "sources": [
-          "India Today",
           "Livemint",
           "India Today"
+        ]
+      },
+      {
+        "text": "Prime Minister Narendra Modi hosted the BRICS dinner.",
+        "sources": [
+          "The Hindu"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The intent behind Rahul Gandhi's comments on non-vegetarianism.",
+        "point": "The interpretation of Rahul Gandhi's comment regarding Indian dietary preferences.",
         "positions": [
           {
             "outlet": "India Today",
-            "claim": "Gandhi's remarks were a 'veiled jibe' at the all-vegetarian BRICS dinner menu."
+            "claim": "Frames the comment as a 'veiled jibe' directed at the BRICS dinner menu."
           },
           {
             "outlet": "The Hindu",
-            "claim": "Gandhi's statement was a direct remark about Indian dietary habits and the deliciousness of non-vegetarian food."
+            "claim": "Presents the statement as a direct quote from Rahul Gandhi, without explicit interpretation of intent."
           }
         ]
       }
@@ -393,35 +168,43 @@
     "framing": [
       {
         "outlet": "The Hindu",
-        "note": "Led by quoting Rahul Gandhi's statement about Indian non-vegetarianism and mentioning the BRICS dinner context."
+        "note": "Focuses on simply quoting Rahul Gandhi's statement about Indian dietary habits."
       },
       {
         "outlet": "Livemint",
-        "note": "Framed the event as 'Dinner Diplomacy,' highlighting the political nature of Gandhi's remarks and the BJP's swift counter-response."
+        "note": "Frames the incident as 'Dinner Diplomacy' that quickly escalated into a political debate, highlighting the BJP's counter-response."
       },
       {
-        "outlet": "India Today",
-        "note": "Presented Gandhi's statement as a direct 'jibe' at the BRICS dinner menu, focusing on the immediate controversy."
+        "outlet": "Hindustan Times",
+        "note": "Expands the scope beyond the immediate Rahul-BJP spat to a broader discussion about dietary preferences at international events."
       }
     ],
     "jargon": [
       {
+        "term": "Bharat Mandapam",
+        "plain": "A convention center and exhibition complex located in New Delhi, India, often used for major international events."
+      },
+      {
         "term": "Naraaz fufas",
-        "plain": "An informal Hindi term used by the BJP to liken the Congress's criticism to that of perpetually annoyed paternal uncles who complain about everything."
+        "plain": "A Hindi term literally meaning 'angry paternal aunts' husbands,' used colloquially to refer to disgruntled relatives who complain or criticize."
+      },
+      {
+        "term": "BRICS Summit",
+        "plain": "An annual meeting of the heads of state or government of five major emerging national economies: Brazil, Russia, India, China, and South Africa."
       }
     ],
     "people": [
       {
         "name": "Rahul Gandhi",
-        "who": "A prominent leader of the Indian National Congress party, whose remarks on dietary habits sparked the debate."
+        "who": "A prominent Indian politician and a leading figure of the Indian National Congress party."
       },
       {
         "name": "Narendra Modi",
-        "who": "The current Prime Minister of India, who hosted the BRICS Summit dinner at the Bharat Mandapam."
+        "who": "The current Prime Minister of India, who hosted the BRICS Summit dinner."
       },
       {
         "name": "Kiren Rijiju",
-        "who": "A Union Minister who responded to Rahul Gandhi's remarks, stating guests enjoyed the vegetarian cuisine."
+        "who": "An Indian politician serving as a Union Minister in the Government of India, who publicly responded to Rahul Gandhi's remarks."
       }
     ],
     "id": "78fba406d64a09a6cb226d640d4d8e7c",
@@ -429,26 +212,34 @@
     "published": ""
   },
   {
-    "headline": "India, Sri Lanka Asia Cup Finals Loom in 2026",
+    "headline": "India's Broad Sporting Calendar: Asia Cups and Global Matches",
     "read_seconds": 90,
     "topics": [
       "sport",
       "world"
     ],
     "affects": [
-      "sports fans",
-      "cricket teams",
-      "Asia region"
+      "Sports fans",
+      "athletes",
+      "broadcasting industry"
     ],
     "regions": [
       "India",
-      "Sri Lanka",
-      "Dubai",
-      "Asia"
+      "Asia",
+      "UAE",
+      "Spain"
     ],
     "agreed_facts": [
       {
-        "text": "India is set to compete against Sri Lanka in an Asia Cup final.",
+        "text": "India has secured recent victories in various Junior Hockey Asia Cup tournaments.",
+        "sources": [
+          "Hindustan Times",
+          "Deccan Herald",
+          "Hindustan Times"
+        ]
+      },
+      {
+        "text": "India is scheduled to participate in upcoming Asia Cup cricket finals against Sri Lanka.",
         "sources": [
           "Indian Express",
           "Al Jazeera",
@@ -456,38 +247,44 @@
         ]
       },
       {
-        "text": "At least one of these finals is scheduled for 2026.",
+        "text": "Live streaming options are available for various international sports events involving Indian teams.",
         "sources": [
-          "Indian Express",
+          "NDTV",
+          "NDTV",
           "NDTV"
         ]
       },
       {
-        "text": "Live coverage and streaming details are being provided for the matches.",
+        "text": "The Men's Junior Hockey Asia Cup victory for India was achieved by defeating South Korea.",
         "sources": [
-          "Al Jazeera",
-          "NDTV"
-        ]
-      },
-      {
-        "text": "The events include both men's and women's Asia Cup finals.",
-        "sources": [
-          "Indian Express",
-          "NDTV"
+          "Hindustan Times"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The specific sport and category of the 'Asia Cup final' being primarily reported.",
+        "point": "The specific number of consecutive Men's Junior Hockey Asia Cup titles won by India.",
+        "positions": [
+          {
+            "outlet": "Hindustan Times",
+            "claim": "States India won for the 'fourth time in a row'."
+          },
+          {
+            "outlet": "Deccan Herald",
+            "claim": "Reports India completed a 'junior Asia Cup hockey hat-trick'."
+          }
+        ]
+      },
+      {
+        "point": "The primary sport of an upcoming India vs Sri Lanka Asia Cup Final.",
         "positions": [
           {
             "outlet": "Indian Express",
-            "claim": "Refers to an Asia Cup final where India competes for an 'eighth Asia Cup title tonight', implying a men's cricket event based on historical context."
+            "claim": "Refers generally to an 'Asia Cup final' implying men's cricket."
           },
           {
             "outlet": "NDTV",
-            "claim": "Explicitly reports on the 'Women's Asia Cup 2026 Final' between India and Sri Lanka, providing streaming information."
+            "claim": "Specifically highlights the 'Women's Asia Cup 2026 Final'."
           }
         ]
       }
@@ -495,29 +292,29 @@
     "framing": [
       {
         "outlet": "Indian Express",
-        "note": "Leads with a general daily news headline context, highlighting India's pursuit of an eighth Asia Cup title in a specific match."
+        "note": "Highlights upcoming India vs Sri Lanka Asia Cup (cricket) final as a top national headline for daily news."
       },
       {
-        "outlet": "Al Jazeera",
-        "note": "Focuses on providing real-time live event coverage, including build-up, predictions, scores, and commentary for an Asia Cup final."
+        "outlet": "Hindustan Times",
+        "note": "Emphasizes India's consistent success and consecutive wins in Men's Junior Hockey Asia Cup."
       },
       {
         "outlet": "NDTV",
-        "note": "Concentrates on offering practical information for viewers, detailing live streaming and telecast options for a specific Women's Asia Cup final."
+        "note": "Focuses on the upcoming Women's Asia Cup 2026 final, providing practical live streaming information."
       }
     ],
     "jargon": [
       {
-        "term": "Asia Cup",
-        "plain": "This is an international cricket tournament contested between national teams from Asian countries."
+        "term": "T20I",
+        "plain": "Twenty20 International, a short-format cricket match played between international teams."
       },
       {
-        "term": "Live Streaming",
-        "plain": "This refers to the real-time broadcast of video or audio content over the internet as it happens."
+        "term": "LaLiga",
+        "plain": "The top professional football league in Spain."
       },
       {
-        "term": "Final",
-        "plain": "This is the concluding match or game in a tournament or competition that determines the overall winner."
+        "term": "Hat-trick",
+        "plain": "In sports, achieving three successes of the same kind, often consecutively, such as three goals or three wins."
       }
     ],
     "people": [],

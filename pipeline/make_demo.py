@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google import genai
 
@@ -94,8 +95,17 @@ REQUIRED JSON SHAPE (fill in the values, keep the exact keys):
 ARTICLES:
 {articles_text}"""
 
-    response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
-    raw = response.text
+    delays = [2, 8, 20]
+    for attempt, wait in enumerate(delays, start=1):
+        try:
+            response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
+            raw = response.text
+            break
+        except Exception as exc:
+            print(f"  [group {group_idx}] attempt {attempt} failed: {exc} — retrying in {wait}s")
+            time.sleep(wait)
+    else:
+        return None
 
     cleaned = strip_fences(raw)
     try:
@@ -135,12 +145,16 @@ with ThreadPoolExecutor(max_workers=len(selected)) as pool:
     }
     for future in as_completed(futures):
         idx = futures[future]
-        stories[idx] = future.result()   # None if the call failed
+        try:
+            stories[idx] = future.result()
+        except Exception:
+            print(f"  [group {idx}] ✗ failed after retries — skipped")
 
 # Drop failed stories (None slots) while preserving order
 stories = [s for s in stories if s is not None]
+failed = len(selected) - len(stories)
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:
     json.dump(stories, fh, ensure_ascii=False, indent=2)
 
-print(f"\nSaved {len(stories)} / {len(selected)} stories to {OUTPUT_FILE}")
+print(f"\nSaved {len(stories)} / {len(selected)} stories ({failed} failed)")
