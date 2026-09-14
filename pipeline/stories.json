@@ -1,64 +1,79 @@
 [
   {
-    "headline": "BRICS Summit 2026 Convenes in Delhi; Leaders Discuss Global Issues",
+    "headline": "BRICS Summit Concludes: Modi Calls for Action, China Takes Chair",
     "read_seconds": 90,
+    "topics": [
+      "politics",
+      "world",
+      "health"
+    ],
     "affects": [
-      "commuters",
-      "global affairs",
-      "residents"
+      "Global South",
+      "international trade",
+      "public health"
     ],
     "regions": [
-      "Delhi",
-      "national",
+      "India",
+      "China",
       "global"
     ],
     "agreed_facts": [
       {
-        "text": "The BRICS Summit 2026 is currently being held in New Delhi.",
-        "sources": [
-          "The Hindu",
-          "Livemint",
-          "Indian Express",
-          "Hindustan Times",
-          "Deccan Herald",
-          "Reuters"
-        ]
-      },
-      {
-        "text": "Indian Prime Minister Narendra Modi is participating, proposing agenda items, and holding bilateral meetings.",
+        "text": "PM Modi spoke at the BRICS Summit.",
         "sources": [
           "The Hindu",
           "Hindustan Times",
-          "Deccan Herald",
-          "Reuters"
-        ]
-      },
-      {
-        "text": "Chinese President Xi Jinping has arrived in Delhi for the summit, marking his first visit since 2014.",
-        "sources": [
-          "Livemint",
-          "The Hindu"
-        ]
-      },
-      {
-        "text": "Traffic advisories and heightened security measures are in effect in Delhi due to the summit and VVIP movements.",
-        "sources": [
-          "Livemint",
+          "NDTV",
+          "New Indian Express",
           "Indian Express"
+        ]
+      },
+      {
+        "text": "PM Modi stressed the need for \"concrete results\" from the grouping.",
+        "sources": [
+          "Hindustan Times",
+          "NDTV",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "The summit marked BRICS entering its \"third decade\".",
+        "sources": [
+          "Hindustan Times",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "China assumed the BRICS chairship.",
+        "sources": [
+          "New Indian Express"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The primary purpose and future direction of the BRICS bloc.",
+        "point": "The primary message or focus of PM Modi's concluding remarks.",
         "positions": [
           {
             "outlet": "The Hindu",
-            "claim": "Highlights PM Modi's 10-point proposal for global governance and an ambitious agenda for BRICS's next 20 years."
+            "claim": "Modi focused on India's four pillars (resilience, innovation, cooperation, sustainability) and warned against weaponisation of technology and critical minerals."
           },
           {
-            "outlet": "Reuters",
-            "claim": "Emphasizes Russia's call for BRICS to counter Western influence and the strengthening of ties between Modi and Putin."
+            "outlet": "Hindustan Times",
+            "claim": "Modi emphasized the world's expectation for BRICS to deliver \"concrete results\" rather than just ideas, as it enters its third decade."
+          }
+        ]
+      },
+      {
+        "point": "Key non-Modi contributions or specific outcomes highlighted from the summit.",
+        "positions": [
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Highlighted China's Xi Jinping calling for stronger Global South ties and proposing five initiatives for a rules-based international order."
+          },
+          {
+            "outlet": "NDTV",
+            "claim": "Noted BRICS leaders' recognition of obesity and non-communicable diseases as major global health challenges."
           }
         ]
       }
@@ -66,466 +81,447 @@
     "framing": [
       {
         "outlet": "The Hindu",
-        "note": "Leads with PM Modi's forward-looking proposals for global governance and BRICS's future identity."
+        "note": "Focused on India's strategic priorities and specific warnings by PM Modi regarding technology and critical minerals."
       },
       {
-        "outlet": "Livemint",
-        "note": "Focuses on the immediate local impact of the summit, specifically traffic advisories and restrictions in Delhi."
+        "outlet": "NDTV",
+        "note": "Highlighted the BRICS leaders' recognition of obesity and non-communicable diseases as major global health challenges."
       },
       {
-        "outlet": "Reuters",
-        "note": "Frames the summit through a geopolitical lens, highlighting Russia's stance on countering the West and bilateral strengthening."
+        "outlet": "Hindustan Times",
+        "note": "Emphasized China's President Xi Jinping's call for stronger Global South ties and his five initiatives for a global order."
       }
     ],
     "jargon": [
       {
-        "term": "Global governance",
-        "plain": "Refers to the various ways individuals and institutions, public and private, manage their common affairs on an international scale."
+        "term": "Global South",
+        "plain": "A term used to refer to countries in Africa, Latin America, and Asia, often characterized by developing economies and a shared history of colonialism."
       },
       {
-        "term": "VVIP movements",
-        "plain": "Describes the secure transit of Very Very Important Persons, often involving significant traffic disruptions and heightened security protocols."
+        "term": "Critical minerals",
+        "plain": "Raw materials essential for modern technology and economy, whose supply may be at risk due to geological scarcity, geopolitical issues, or trade policies."
       },
       {
-        "term": "BRICS",
-        "plain": "An acronym for an association of five major emerging national economies: Brazil, Russia, India, China, and South Africa."
+        "term": "Rules-based international order",
+        "plain": "A framework of principles, laws, and institutions that govern relations between states, typically based on international law and agreements."
       }
     ],
     "people": [
       {
         "name": "Narendra Modi",
-        "who": "Prime Minister of India and host of the BRICS Summit 2026."
+        "who": "The Prime Minister of India, who delivered remarks at the BRICS Summit."
       },
       {
         "name": "Xi Jinping",
-        "who": "President of China, attending the summit in New Delhi."
-      },
-      {
-        "name": "Vladimir Putin",
-        "who": "President of Russia, participating in the BRICS Summit and making geopolitical statements."
+        "who": "The President of China, who called for stronger Global South ties and proposed initiatives at the summit."
       }
     ],
-    "id": "6e545537ce92eb8d2a6af7e586bd760c",
+    "id": "67755f8d9f7387aa8f1f03de840347be",
     "source_count": 13,
     "published": ""
   },
   {
-    "headline": "Saudi Pipeline Hit Amid Houthi Red Sea Gains",
+    "headline": "Mideast Tensions Escalate: Pipeline Shut, Houthis Seize Strategic Island",
     "read_seconds": 90,
+    "topics": [
+      "politics",
+      "economy",
+      "world"
+    ],
     "affects": [
       "oil markets",
-      "regional security",
-      "civilians"
+      "global shipping",
+      "regional stability"
     ],
     "regions": [
       "Saudi Arabia",
       "Yemen",
-      "Iraq",
       "Red Sea",
       "Middle East"
     ],
     "agreed_facts": [
       {
-        "text": "Saudi Arabia shut down its East-West oil pipeline following an attack.",
+        "text": "Saudi Arabia has shut down a key oil pipeline.",
         "sources": [
-          "AP",
-          "Hindustan Times",
-          "Livemint",
+          "The Guardian",
+          "Reuters"
+        ]
+      },
+      {
+        "text": "Yemen's Houthis have advanced and seized a strategic island (Mayun/Perim) in the Red Sea/Bab al-Mandab Strait.",
+        "sources": [
           "Al Jazeera",
-          "Indian Express",
+          "AP",
           "The Guardian"
         ]
       },
       {
-        "text": "The pipeline attack involved drones or projectiles, causing visible fire damage to pumping stations.",
+        "text": "The pipeline shutdown is linked to alleged drone attacks.",
         "sources": [
-          "Hindustan Times",
-          "Livemint",
-          "Al Jazeera",
-          "The Guardian"
+          "The Guardian",
+          "Reuters"
         ]
       },
       {
-        "text": "Houthi forces have recently expanded their territorial control along Yemen's Red Sea coast.",
+        "text": "Houthi control of the island and advances threaten shipping in the Bab al-Mandab Strait.",
         "sources": [
           "AP",
-          "Indian Express",
-          "The Guardian",
-          "Hindustan Times"
-        ]
-      },
-      {
-        "text": "These developments impact critical shipping routes including the Red Sea and Bab al-Mandab Strait.",
-        "sources": [
-          "Indian Express",
-          "The Guardian",
-          "Hindustan Times"
+          "The Guardian"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The purported origin of the drone attack on Saudi Arabia's East-West pipeline.",
+        "point": "The origin and responsibility for the drone attacks on the Saudi pipeline.",
         "positions": [
-          {
-            "outlet": "Al Jazeera",
-            "claim": "Riyadh states the drone attack originated in Iraq."
-          },
-          {
-            "outlet": "Hindustan Times",
-            "claim": "US officials cited CNN on drones from Iraq, but launchers' identity is unclear."
-          }
-        ]
-      },
-      {
-        "point": "The direct relationship between the pipeline attack and recent Houthi military actions.",
-        "positions": [
-          {
-            "outlet": "AP",
-            "claim": "Frames pipeline shutdown and Houthi island seizure as opening 'a new front in the Iran war'."
-          },
           {
             "outlet": "The Guardian",
-            "claim": "Reports pipeline attack separately from Houthi advances, linking both to regional instability and shipping route struggles."
+            "claim": "Saudi Arabia blames militants in Iraq for launching drone attacks."
+          },
+          {
+            "outlet": "Iraq (via AP)",
+            "claim": "Iraq says the Saudi pipeline attack originated from its territory."
+          },
+          {
+            "outlet": "Reuters",
+            "claim": "Donald Trump says Iran is probably responsible for the attack."
           }
         ]
       }
     ],
     "framing": [
       {
-        "outlet": "AP",
-        "note": "Presents the pipeline attack and Houthi advances as part of an escalating 'Iran war'."
-      },
-      {
-        "outlet": "Hindustan Times",
-        "note": "Focuses on the strategic implications for Saudi Arabia and the mystery surrounding the drones' origin from Iraq."
-      },
-      {
         "outlet": "The Guardian",
-        "note": "Highlights the humanitarian crisis caused by Houthi advances and the global implications for key shipping routes."
+        "note": "Leads by connecting events to a broader 'US-Israeli war against Iran' and a 'global struggle for control' of vital waterways."
+      },
+      {
+        "outlet": "AP",
+        "note": "Reports on Houthi actions and the pipeline attack as separate, developing 'Mideast developments' with less direct geopolitical analysis in the summary."
+      },
+      {
+        "outlet": "Reuters",
+        "note": "Primarily focuses on the pipeline shutdown in relation to Houthi actions in the Red Sea, and on specific accusations regarding the attack."
       }
     ],
     "jargon": [
-      {
-        "term": "East-West Pipeline",
-        "plain": "A major Saudi Arabian oil pipeline system that transports crude oil across the kingdom."
-      },
       {
         "term": "Bab al-Mandab Strait",
-        "plain": "A narrow waterway between Yemen and Djibouti, crucial for international shipping between the Red Sea and the Indian Ocean."
+        "plain": "A narrow waterway between Yemen and Djibouti connecting the Red Sea to the Gulf of Aden, crucial for international shipping."
       },
       {
         "term": "Strait of Hormuz",
-        "plain": "A narrow, strategic waterway between Iran and Oman, vital for global oil trade and often subject to geopolitical tensions."
-      }
-    ],
-    "people": [],
-    "id": "84f51af2ca828e8095a3a8fba7204d32",
-    "source_count": 10,
-    "published": ""
-  },
-  {
-    "headline": "Trump Links Iran War, Oil Prices to Midterms and 9/11 Remarks",
-    "read_seconds": 90,
-    "affects": [
-      "Global markets",
-      "US politics",
-      "Energy sector"
-    ],
-    "regions": [
-      "US",
-      "Middle East",
-      "Global"
-    ],
-    "agreed_facts": [
-      {
-        "text": "President Trump made public statements regarding the ongoing 'Iran war'.",
-        "sources": [
-          "Indian Express",
-          "Deccan Herald",
-          "AP",
-          "The Guardian",
-          "Livemint"
-        ]
+        "plain": "A narrow sea passage between the Persian Gulf and the Gulf of Oman, vital for the global oil trade."
       },
       {
-        "text": "Trump indicated that oil prices would likely decrease after the upcoming midterm elections.",
-        "sources": [
-          "AP",
-          "Livemint",
-          "Deccan Herald"
-        ]
-      },
-      {
-        "text": "Trump attended a 9/11 memorial ceremony at the Pentagon.",
-        "sources": [
-          "The Guardian",
-          "Livemint"
-        ]
-      },
-      {
-        "text": "Trump participated in a Republican convention to discuss policy and campaign.",
-        "sources": [
-          "AP"
-        ]
-      }
-    ],
-    "contested": [
-      {
-        "point": "Whether President Trump explicitly linked the 'Iran war' to the 9/11 terrorist attacks during his Pentagon remarks.",
-        "positions": [
-          {
-            "outlet": "The Guardian",
-            "claim": "Claimed Trump and Pete Hegseth used 9/11 remarks to defend the Iran war and suggest it was part of the attacks' legacy."
-          },
-          {
-            "outlet": "Livemint",
-            "claim": "Presented it as a question, 'Did Trump defend Iran war and link it to 9/11...?', implying the connection was debatable or required further clarification."
-          }
-        ]
-      }
-    ],
-    "framing": [
-      {
-        "outlet": "The Guardian",
-        "note": "Focused on Trump's alleged use of the 9/11 memorial ceremony to link the Iran war to the terrorist attacks."
-      },
-      {
-        "outlet": "Indian Express",
-        "note": "Highlighted Trump's statement that 'everything will work out fine' regarding global issues, emphasizing a reassuring tone."
-      },
-      {
-        "outlet": "AP",
-        "note": "Reported Trump's direct statements regarding oil prices and the 'Iran war' coming down after midterms as a factual development."
-      }
-    ],
-    "jargon": [
-      {
-        "term": "Midterms",
-        "plain": "These are general elections held in the middle of a president's four-year term, often seen as a referendum on the current administration."
-      },
-      {
-        "term": "Strait of Hormuz",
-        "plain": "A narrow, strategically important waterway connecting the Persian Gulf to the open ocean, crucial for global oil shipments."
-      },
-      {
-        "term": "GOP",
-        "plain": "Refers to the Grand Old Party, which is the common informal name for the Republican Party in the United States."
+        "term": "Houthis",
+        "plain": "An Iran-backed Shia political and military organization that controls much of western Yemen."
       }
     ],
     "people": [
       {
         "name": "Donald Trump",
-        "who": "He is the former President of the United States, whose statements and appearances are the focus of these reports."
-      },
-      {
-        "name": "Pete Hegseth",
-        "who": "He is a television host and political commentator who reportedly spoke alongside Trump at the Pentagon 9/11 memorial."
-      },
-      {
-        "name": "J.D. Vance",
-        "who": "He is a political figure who appeared with Donald Trump at a Republican convention, as noted in one article."
+        "who": "The former President of the United States who commented on the pipeline attack."
       }
     ],
-    "id": "1d5d1f69612911d2a7dae800fe237eb2",
-    "source_count": 6,
+    "id": "485a3fac6dd0e9949fe76538400d7731",
+    "source_count": 7,
     "published": ""
   },
   {
-    "headline": "Indian-origin woman charged with double murder in California",
+    "headline": "Tamil Nadu Bypolls, CM Visit Stir Political Landscape",
     "read_seconds": 90,
+    "topics": [
+      "politics",
+      "economy"
+    ],
     "affects": [
-      "Indian diaspora",
-      "Victims' families",
-      "Accused"
+      "voters",
+      "politicians",
+      "Tamil Nadu residents"
     ],
     "regions": [
-      "California, US",
-      "Kerala, India"
+      "Tamil Nadu",
+      "national"
     ],
     "agreed_facts": [
       {
-        "text": "An Indian-origin woman has been arrested and charged with murder.",
+        "text": "By-elections are scheduled for Madurantakam and Dharapuram constituencies.",
         "sources": [
-          "Hindustan Times",
+          "The Hindu",
           "Indian Express",
-          "Deccan Herald"
+          "New Indian Express"
         ]
       },
       {
-        "text": "Two friends were killed in the incident.",
-        "sources": [
-          "Hindustan Times",
-          "Indian Express",
-          "Deccan Herald"
-        ]
-      },
-      {
-        "text": "The incident took place in California, US.",
-        "sources": [
-          "Hindustan Times",
-          "Indian Express",
-          "Deccan Herald"
-        ]
-      },
-      {
-        "text": "The accused woman and the victims are of Malayali origin from Kerala.",
+        "text": "Tamil Nadu Chief Minister C. Joseph Vijay made an official visit to the UK.",
         "sources": [
           "Hindustan Times",
           "Indian Express"
+        ]
+      },
+      {
+        "text": "The TVK, AIADMK, and Left parties have announced candidates for the upcoming bypolls.",
+        "sources": [
+          "The Hindu",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "The DMK has criticized the TVK-led government on various issues.",
+        "sources": [
+          "The Hindu",
+          "Hindustan Times"
         ]
       }
     ],
     "contested": [
       {
-        "point": "Exact timing of the two killings.",
+        "point": "The purpose and appropriateness of Chief Minister Vijay's UK visit.",
         "positions": [
           {
-            "outlet": "Indian Express",
-            "claim": "Two friends dead hours apart."
+            "outlet": "Hindustan Times (DMK claim)",
+            "claim": "Chief Minister Vijay's visit was primarily for personal reasons, specifically to watch a friend's car race."
           },
           {
-            "outlet": "Deccan Herald",
-            "claim": "Two killings in 90 minutes."
+            "outlet": "Hindustan Times (TVK defense)",
+            "claim": "The Chief Minister's trip was part of an official effort to promote 'Brand Tamil Nadu'."
           }
         ]
       }
     ],
     "framing": [
       {
+        "outlet": "The Hindu",
+        "note": "Focuses on the opposition's strong accusations against the TVK government's performance and leadership."
+      },
+      {
         "outlet": "Hindustan Times",
-        "note": "Led with the Indian-origin aspect and the Malayali background of the victims."
+        "note": "Frames the CM's UK visit as a political controversy, presenting both critical and defensive viewpoints."
       },
       {
         "outlet": "Indian Express",
-        "note": "Highlighted the specific timing of the deaths and the accused's Kerala origin."
-      },
-      {
-        "outlet": "Deccan Herald",
-        "note": "Emphasized the close temporal proximity of the two killings."
+        "note": "Covers the UK visit as a celebrity social event, focusing on the interaction between film personalities."
       }
     ],
     "jargon": [
       {
-        "term": "Malayali",
-        "plain": "A person whose native language is Malayalam and whose ancestry is from the South Indian state of Kerala."
+        "term": "Bypolls",
+        "plain": "An election held to fill a political office that has become vacant between general elections."
       },
       {
-        "term": "Indian-origin",
-        "plain": "Referring to a person who has ethnic roots or ancestry in India, but lives in another country."
-      }
-    ],
-    "people": [],
-    "id": "48ca90ec3821990c39ac77467c8f1afe",
-    "source_count": 6,
-    "published": ""
-  },
-  {
-    "headline": "Apple Launches Foldable iPhone Duo Amid Price Scrutiny",
-    "read_seconds": 90,
-    "affects": [
-      "Tech consumers",
-      "Smartphone market",
-      "Apple users"
-    ],
-    "regions": [
-      "India",
-      "Global"
-    ],
-    "agreed_facts": [
-      {
-        "text": "Apple has unveiled a new foldable smartphone model named iPhone Duo.",
-        "sources": [
-          "AP",
-          "Reuters",
-          "Livemint",
-          "Hindustan Times",
-          "Indian Express"
-        ]
+        "term": "DMK",
+        "plain": "Dravida Munnetra Kazhagam, a major political party in Tamil Nadu, currently in opposition."
       },
       {
-        "text": "The iPhone Duo is priced at $1,999 internationally and approximately ₹2,99,900 to ₹4.5 lakh in India.",
-        "sources": [
-          "Reuters",
-          "Hindustan Times",
-          "Livemint"
-        ]
-      },
-      {
-        "text": "The launch marks Apple's official entry into the competitive foldable phone market.",
-        "sources": [
-          "Reuters",
-          "Samsung (implied)"
-        ]
-      }
-    ],
-    "contested": [
-      {
-        "point": "The market appeal and value proposition of the iPhone Duo given its high price point.",
-        "positions": [
-          {
-            "outlet": "Reuters",
-            "claim": "Ponders 'Who is it for?', questioning the target audience and necessity of the device."
-          },
-          {
-            "outlet": "Indian Express",
-            "claim": "Suggests that even those who can afford it may not desire it, indicating a potential lack of perceived value."
-          }
-        ]
-      },
-      {
-        "point": "The cultural and economic significance of the iPhone Duo's high price in the Indian market.",
-        "positions": [
-          {
-            "outlet": "Livemint",
-            "claim": "Highlights a rapper reviving the 'kidney joke,' framing the price as culturally shocking and extremely unaffordable."
-          },
-          {
-            "outlet": "Hindustan Times",
-            "claim": "Compares the price to buying multiple flight tickets or gold, framing it as an extravagant opportunity cost for consumers."
-          }
-        ]
-      }
-    ],
-    "framing": [
-      {
-        "outlet": "AP",
-        "note": "A straightforward and factual announcement of the new product lineup and its unveiling by the company's CEO."
-      },
-      {
-        "outlet": "Livemint",
-        "note": "Focuses on the social media reaction and humor, specifically the 'kidney joke,' regarding the device's high price."
-      },
-      {
-        "outlet": "Hindustan Times",
-        "note": "Frames the iPhone Duo's price by comparing it to other tangible goods one could purchase, emphasizing its costliness."
-      }
-    ],
-    "jargon": [
-      {
-        "term": "Foldable phone",
-        "plain": "A smartphone with a flexible screen that can bend or fold, often allowing for a larger display or more compact form factor."
-      },
-      {
-        "term": "CEO",
-        "plain": "Chief Executive Officer, the highest-ranking corporate officer responsible for managing a company's overall operations and resources."
-      },
-      {
-        "term": "AI-generated post",
-        "plain": "A piece of content, such as an image or text, that has been created or modified using artificial intelligence software or algorithms."
+        "term": "TVK",
+        "plain": "Tamizhaga Vetri Kazhagam, the ruling political party in Tamil Nadu."
       }
     ],
     "people": [
       {
-        "name": "Apple CEO",
-        "who": "The head executive of Apple who unveiled the company's latest iPhone lineup, including the new foldable Duo model."
+        "name": "C. Joseph Vijay",
+        "who": "The Chief Minister of Tamil Nadu, whose government is facing criticism and whose foreign trip caused controversy."
       },
       {
-        "name": "Santy Sharma",
-        "who": "A rapper who shared an AI-generated social media post reviving the popular 'kidney joke' in response to the high price of the iPhone Duo."
+        "name": "Udhayanidhi Stalin",
+        "who": "A leader of the opposition DMK party and former Deputy Chief Minister, who voiced strong criticism of the current government."
+      },
+      {
+        "name": "Ajith Kumar",
+        "who": "A prominent actor mentioned in connection with Chief Minister Vijay's visit to the UK."
       }
     ],
-    "id": "ea142085f1ecf1e8266c85d44eea4267",
+    "id": "9672494ebca44ba579869f5c1cae7243",
+    "source_count": 5,
+    "published": ""
+  },
+  {
+    "headline": "Rahul Gandhi Sparks Debate Over BRICS Vegetarian Dinner Menu",
+    "read_seconds": 90,
+    "topics": [
+      "politics"
+    ],
+    "affects": [
+      "politicians",
+      "public debate"
+    ],
+    "regions": [
+      "national"
+    ],
+    "agreed_facts": [
+      {
+        "text": "Rahul Gandhi stated that 80% of Indians are non-vegetarian and Indian non-vegetarian food is delicious.",
+        "sources": [
+          "The Hindu",
+          "India Today",
+          "Livemint"
+        ]
+      },
+      {
+        "text": "The BRICS Summit dinner menu, hosted by Prime Minister Narendra Modi, was entirely vegetarian.",
+        "sources": [
+          "The Hindu",
+          "India Today",
+          "Livemint",
+          "Hindustan Times"
+        ]
+      },
+      {
+        "text": "Gandhi's remarks sparked a political debate and drew criticism from the Bharatiya Janata Party (BJP).",
+        "sources": [
+          "India Today",
+          "Livemint",
+          "India Today"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The intent behind Rahul Gandhi's comments on non-vegetarianism.",
+        "positions": [
+          {
+            "outlet": "India Today",
+            "claim": "Gandhi's remarks were a 'veiled jibe' at the all-vegetarian BRICS dinner menu."
+          },
+          {
+            "outlet": "The Hindu",
+            "claim": "Gandhi's statement was a direct remark about Indian dietary habits and the deliciousness of non-vegetarian food."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Hindu",
+        "note": "Led by quoting Rahul Gandhi's statement about Indian non-vegetarianism and mentioning the BRICS dinner context."
+      },
+      {
+        "outlet": "Livemint",
+        "note": "Framed the event as 'Dinner Diplomacy,' highlighting the political nature of Gandhi's remarks and the BJP's swift counter-response."
+      },
+      {
+        "outlet": "India Today",
+        "note": "Presented Gandhi's statement as a direct 'jibe' at the BRICS dinner menu, focusing on the immediate controversy."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Naraaz fufas",
+        "plain": "An informal Hindi term used by the BJP to liken the Congress's criticism to that of perpetually annoyed paternal uncles who complain about everything."
+      }
+    ],
+    "people": [
+      {
+        "name": "Rahul Gandhi",
+        "who": "A prominent leader of the Indian National Congress party, whose remarks on dietary habits sparked the debate."
+      },
+      {
+        "name": "Narendra Modi",
+        "who": "The current Prime Minister of India, who hosted the BRICS Summit dinner at the Bharat Mandapam."
+      },
+      {
+        "name": "Kiren Rijiju",
+        "who": "A Union Minister who responded to Rahul Gandhi's remarks, stating guests enjoyed the vegetarian cuisine."
+      }
+    ],
+    "id": "78fba406d64a09a6cb226d640d4d8e7c",
+    "source_count": 8,
+    "published": ""
+  },
+  {
+    "headline": "India, Sri Lanka Asia Cup Finals Loom in 2026",
+    "read_seconds": 90,
+    "topics": [
+      "sport",
+      "world"
+    ],
+    "affects": [
+      "sports fans",
+      "cricket teams",
+      "Asia region"
+    ],
+    "regions": [
+      "India",
+      "Sri Lanka",
+      "Dubai",
+      "Asia"
+    ],
+    "agreed_facts": [
+      {
+        "text": "India is set to compete against Sri Lanka in an Asia Cup final.",
+        "sources": [
+          "Indian Express",
+          "Al Jazeera",
+          "NDTV"
+        ]
+      },
+      {
+        "text": "At least one of these finals is scheduled for 2026.",
+        "sources": [
+          "Indian Express",
+          "NDTV"
+        ]
+      },
+      {
+        "text": "Live coverage and streaming details are being provided for the matches.",
+        "sources": [
+          "Al Jazeera",
+          "NDTV"
+        ]
+      },
+      {
+        "text": "The events include both men's and women's Asia Cup finals.",
+        "sources": [
+          "Indian Express",
+          "NDTV"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The specific sport and category of the 'Asia Cup final' being primarily reported.",
+        "positions": [
+          {
+            "outlet": "Indian Express",
+            "claim": "Refers to an Asia Cup final where India competes for an 'eighth Asia Cup title tonight', implying a men's cricket event based on historical context."
+          },
+          {
+            "outlet": "NDTV",
+            "claim": "Explicitly reports on the 'Women's Asia Cup 2026 Final' between India and Sri Lanka, providing streaming information."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "Indian Express",
+        "note": "Leads with a general daily news headline context, highlighting India's pursuit of an eighth Asia Cup title in a specific match."
+      },
+      {
+        "outlet": "Al Jazeera",
+        "note": "Focuses on providing real-time live event coverage, including build-up, predictions, scores, and commentary for an Asia Cup final."
+      },
+      {
+        "outlet": "NDTV",
+        "note": "Concentrates on offering practical information for viewers, detailing live streaming and telecast options for a specific Women's Asia Cup final."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Asia Cup",
+        "plain": "This is an international cricket tournament contested between national teams from Asian countries."
+      },
+      {
+        "term": "Live Streaming",
+        "plain": "This refers to the real-time broadcast of video or audio content over the internet as it happens."
+      },
+      {
+        "term": "Final",
+        "plain": "This is the concluding match or game in a tournament or competition that determines the overall winner."
+      }
+    ],
+    "people": [],
+    "id": "4446208f25fc1b7df056a10490ef3a0e",
     "source_count": 5,
     "published": ""
   }

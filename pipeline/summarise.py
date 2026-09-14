@@ -14,6 +14,43 @@ GROUPS_FILE = "groups.json"
 OUTPUT_FILE = "story.json"
 MODEL_NAME  = "models/gemini-2.5-flash"
 
+# ── Region normalisation ───────────────────────────────────────────────────────
+_ALLOWED_REGIONS = {
+    "andhra pradesh", "arunachal pradesh", "assam", "bihar", "chhattisgarh",
+    "goa", "gujarat", "haryana", "himachal pradesh", "jharkhand", "karnataka",
+    "kerala", "madhya pradesh", "maharashtra", "manipur", "meghalaya",
+    "mizoram", "nagaland", "odisha", "punjab", "rajasthan", "sikkim",
+    "tamil nadu", "telangana", "tripura", "uttar pradesh", "uttarakhand",
+    "west bengal", "delhi", "jammu and kashmir", "national",
+    "united states", "europe", "gulf", "china", "south asia", "middle east",
+    "east asia", "africa", "latin america", "global",
+}
+
+def normalise_regions(regions):
+    seen = set()
+    kept = []
+    dropped = []
+    for r in regions:
+        v = r.strip().lower()
+        if v == "india":
+            v = "national"
+        if v in _ALLOWED_REGIONS:
+            if v not in seen:
+                seen.add(v)
+                kept.append(v)
+        else:
+            dropped.append(r)
+    if dropped:
+        if "national" not in seen:
+            if "global" not in seen:
+                kept.append("global")
+                seen.add("global")
+        print(f"dropped regions: {dropped} -> {kept}")
+    if not kept:
+        return ["national"]
+    return kept
+
+
 # ── Configure Gemini with the API key from the environment ─────────────────────
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
@@ -63,7 +100,7 @@ REQUIRED JSON SHAPE (fill in the values, keep the exact keys):
   "headline": "one neutral sentence summarising the event, no spin",
   "read_seconds": 90,
   "affects": ["who this story affects, e.g. students, commuters, investors"],
-  "regions": ["geographic regions this story concerns, e.g. Karnataka, national, global"],
+  "regions": ["1–4 values from the fixed list below; see REGIONS RULES"],
   "agreed_facts": [
     {{"text": "a fact most or all papers agree on", "sources": ["Paper A", "Paper B"]}}
   ],
@@ -86,6 +123,30 @@ REQUIRED JSON SHAPE (fill in the values, keep the exact keys):
   ]
 }}
 
+REGIONS RULES:
+The "regions" field must contain 1 to 4 values drawn ONLY from the two lists below. Never invent a value.
+
+INDIAN states/territories (use exact lowercase spelling):
+andhra pradesh, arunachal pradesh, assam, bihar, chhattisgarh, goa, gujarat, haryana, himachal pradesh, jharkhand, karnataka, kerala, madhya pradesh, maharashtra, manipur, meghalaya, mizoram, nagaland, odisha, punjab, rajasthan, sikkim, tamil nadu, telangana, tripura, uttar pradesh, uttarakhand, west bengal, delhi, jammu and kashmir, national
+
+WORLD buckets (use exact lowercase spelling):
+united states, europe, gulf, china, south asia, middle east, east asia, africa, latin america, global
+
+Mapping rules — never write a country, city, sea or continent name not on the list; use the bucket instead:
+- "national" means all of India. Never write "india".
+- "gulf" = UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain.
+- "middle east" = Israel, Iran, Yemen, Iraq, Syria, Palestine, Lebanon.
+- "south asia" = Pakistan, Bangladesh, Sri Lanka, Nepal, Afghanistan.
+- "east asia" = Japan, Korea, Taiwan. China gets its own value, "china".
+- "global" is for stories that are worldwide or fit no bucket. It is NOT the default for anything foreign.
+- A story about an Indian state that is also nationally significant gets both the state and "national".
+
+Examples:
+  BRICS summit, India and China attending → ["national", "china", "global"]   NOT ["India", "China", "Brazil"]
+  Houthi attacks on Red Sea shipping, Saudi pipeline shut → ["middle east", "gulf", "global"]   NOT ["Saudi Arabia", "Yemen", "Red Sea"]
+  India vs Sri Lanka Asia Cup final in Dubai → ["national", "south asia"]   NOT ["India", "Sri Lanka", "Dubai", "Asia"]
+  Tamil Nadu bypolls → ["tamil nadu", "national"]
+
 ARTICLES:
 {articles_text}"""
 
@@ -107,6 +168,8 @@ except json.JSONDecodeError as err:
     print("JSON parsing failed. Raw response from Gemini:")
     print(raw)
     raise SystemExit(f"Parse error: {err}")
+
+story["regions"] = normalise_regions(story.get("regions", []))
 
 # ── Save to story.json ─────────────────────────────────────────────────────────
 with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:
