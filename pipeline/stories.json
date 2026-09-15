@@ -1,166 +1,70 @@
 [
   {
-    "headline": "Houthis Seize Island, Saudi Pipeline Closed Amid Red Sea Tensions",
+    "headline": "BRICS Summit concludes; Modi urges results, China takes chair.",
     "read_seconds": 90,
     "topics": [
       "politics",
+      "economy",
       "world"
     ],
     "affects": [
-      "global shipping",
-      "oil markets",
-      "Yemeni civilians"
+      "Global governance",
+      "International trade",
+      "Developing nations"
     ],
     "regions": [
-      "Yemen",
-      "Saudi Arabia",
-      "Red Sea",
+      "national",
+      "china",
+      "south asia",
       "global"
     ],
     "agreed_facts": [
       {
-        "text": "Yemen's Houthi forces have seized Mayun (Perim) Island in the Bab al-Mandab Strait.",
-        "sources": [
-          "Al Jazeera",
-          "AP",
-          "The Guardian",
-          "Reuters"
-        ]
-      },
-      {
-        "text": "Saudi Arabia has shut down its East-West oil pipeline.",
-        "sources": [
-          "The Guardian",
-          "Reuters"
-        ]
-      },
-      {
-        "text": "The pipeline shutdown is attributed to drone attacks.",
-        "sources": [
-          "The Guardian",
-          "AP"
-        ]
-      },
-      {
-        "text": "The Bab al-Mandab Strait is a critical global shipping route.",
-        "sources": [
-          "The Guardian",
-          "Al Jazeera",
-          "AP",
-          "Reuters"
-        ]
-      }
-    ],
-    "contested": [
-      {
-        "point": "Responsibility for drone attacks on Saudi pipeline.",
-        "positions": [
-          {
-            "outlet": "The Guardian",
-            "claim": "Blames militants in Iraq."
-          },
-          {
-            "outlet": "Reuters",
-            "claim": "Reports Trump's statement attributing probable responsibility to Iran."
-          }
-        ]
-      }
-    ],
-    "framing": [
-      {
-        "outlet": "The Guardian",
-        "note": "Highlights the humanitarian crisis in Yemen and links events to the broader regional conflict."
-      },
-      {
-        "outlet": "Al Jazeera",
-        "note": "Focuses on the Houthis' strategic gains and control over the Bab al-Mandeb Strait."
-      },
-      {
-        "outlet": "Reuters",
-        "note": "Presents concise factual updates and reports direct statements from officials regarding responsibility."
-      }
-    ],
-    "jargon": [
-      {
-        "term": "Bab al-Mandab Strait",
-        "plain": "A narrow, vital waterway connecting the Red Sea to the Gulf of Aden, crucial for global shipping."
-      },
-      {
-        "term": "Houthi",
-        "plain": "An armed political and religious movement that controls significant territory in western Yemen."
-      },
-      {
-        "term": "Strait of Hormuz",
-        "plain": "A critical choke point for oil shipping, located at the entrance to the Persian Gulf."
-      }
-    ],
-    "people": [
-      {
-        "name": "Donald Trump",
-        "who": "The President of the United States who commented on the pipeline attack's likely perpetrator."
-      }
-    ],
-    "id": "485a3fac6dd0e9949fe76538400d7731",
-    "source_count": 7,
-    "published": ""
-  },
-  {
-    "headline": "Rahul Gandhi Sparks BRICS Dinner Menu Debate",
-    "read_seconds": 90,
-    "topics": [
-      "politics",
-      "culture"
-    ],
-    "affects": [
-      "Politicians",
-      "Delegates",
-      "Public opinion"
-    ],
-    "regions": [
-      "India"
-    ],
-    "agreed_facts": [
-      {
-        "text": "Rahul Gandhi stated that 80% of Indians are non-vegetarian.",
+        "text": "Prime Minister Narendra Modi attended the 18th BRICS Summit in New Delhi.",
         "sources": [
           "The Hindu",
-          "India Today",
-          "Livemint"
+          "Hindustan Times",
+          "NDTV"
         ]
       },
       {
-        "text": "His remark sparked a debate concerning the all-vegetarian BRICS dinner menu.",
+        "text": "PM Modi urged BRICS to deliver 'concrete results' rather than just ideas in its third decade.",
         "sources": [
-          "India Today",
-          "Livemint",
-          "Hindustan Times"
+          "Hindustan Times",
+          "NDTV",
+          "New Indian Express"
         ]
       },
       {
-        "text": "The Bharatiya Janata Party (BJP) responded critically to Gandhi's comments.",
+        "text": "The BRICS chairship has passed to China.",
         "sources": [
-          "Livemint",
-          "India Today"
+          "New Indian Express",
+          "Indian Express"
         ]
       },
       {
-        "text": "Prime Minister Narendra Modi hosted the BRICS dinner.",
+        "text": "China's President Xi Jinping called for stronger Global South ties and a rules-based international order.",
         "sources": [
-          "The Hindu"
+          "Hindustan Times",
+          "Indian Express"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The interpretation of Rahul Gandhi's comment regarding Indian dietary preferences.",
+        "point": "The primary focus or key outcome highlighted from the BRICS Summit.",
         "positions": [
           {
-            "outlet": "India Today",
-            "claim": "Frames the comment as a 'veiled jibe' directed at the BRICS dinner menu."
+            "outlet": "The Hindu",
+            "claim": "Emphasized PM Modi's warnings against the weaponisation of technology and critical minerals, and focus on resilience, innovation, cooperation, and sustainability."
           },
           {
-            "outlet": "The Hindu",
-            "claim": "Presents the statement as a direct quote from Rahul Gandhi, without explicit interpretation of intent."
+            "outlet": "NDTV",
+            "claim": "Highlighted the BRICS leaders' recognition of obesity and non-communicable diseases as major global health challenges."
+          },
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Focused on China's President Xi Jinping calling for stronger Global South ties and pitching five initiatives."
           }
         ]
       }
@@ -168,35 +72,357 @@
     "framing": [
       {
         "outlet": "The Hindu",
-        "note": "Focuses on simply quoting Rahul Gandhi's statement about Indian dietary habits."
+        "note": "Led with PM Modi's specific policy warnings against weaponisation of technology and critical minerals."
       },
       {
-        "outlet": "Livemint",
-        "note": "Frames the incident as 'Dinner Diplomacy' that quickly escalated into a political debate, highlighting the BJP's counter-response."
+        "outlet": "NDTV",
+        "note": "Focused on the recognition of obesity and non-communicable diseases as a significant global health challenge."
       },
       {
-        "outlet": "Hindustan Times",
-        "note": "Expands the scope beyond the immediate Rahul-BJP spat to a broader discussion about dietary preferences at international events."
+        "outlet": "Indian Express",
+        "note": "Highlighted BRICS calls for boosting transport potential while respecting ‘territorial integrity’, implicitly referencing China's role."
       }
     ],
     "jargon": [
       {
-        "term": "Bharat Mandapam",
-        "plain": "A convention center and exhibition complex located in New Delhi, India, often used for major international events."
+        "term": "Weaponisation of technology",
+        "plain": "This refers to the use of technological advancements as a tool for political leverage or military advantage, potentially leading to conflicts."
       },
+      {
+        "term": "Critical minerals",
+        "plain": "These are raw materials deemed essential for strategic industries and technologies, making their supply security a national priority."
+      },
+      {
+        "term": "Global South",
+        "plain": "This term describes developing countries, primarily located in Africa, Latin America, and Asia, distinguishing them from wealthier, industrialized nations."
+      }
+    ],
+    "people": [
+      {
+        "name": "Narendra Modi",
+        "who": "The Prime Minister of India, who delivered key remarks at the BRICS Summit."
+      },
+      {
+        "name": "Xi Jinping",
+        "who": "The President of China, who also presented initiatives at the summit and whose country took over the BRICS chairship."
+      }
+    ],
+    "id": "67755f8d9f7387aa8f1f03de840347be",
+    "source_count": 13,
+    "published": ""
+  },
+  {
+    "headline": "Saudi pipeline shut as Houthis seize Red Sea island, heightening tensions",
+    "read_seconds": 90,
+    "topics": [
+      "politics",
+      "economy",
+      "world"
+    ],
+    "affects": [
+      "Oil markets",
+      "Global shipping",
+      "Regional stability"
+    ],
+    "regions": [
+      "middle east",
+      "gulf",
+      "global"
+    ],
+    "agreed_facts": [
+      {
+        "text": "Saudi Arabia shut down a critical East-West oil pipeline.",
+        "sources": [
+          "The Guardian",
+          "Reuters",
+          "AP"
+        ]
+      },
+      {
+        "text": "Yemen's Houthi forces have seized Mayun Island (also called Perim Island) in the Bab al-Mandab Strait.",
+        "sources": [
+          "Al Jazeera",
+          "AP",
+          "The Guardian"
+        ]
+      },
+      {
+        "text": "The Bab al-Mandab Strait is a vital global shipping route.",
+        "sources": [
+          "The Guardian",
+          "Al Jazeera",
+          "AP"
+        ]
+      },
+      {
+        "text": "The Saudi pipeline was being used to bypass the Strait of Hormuz.",
+        "sources": [
+          "The Guardian"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The origin and responsibility for the attack on the Saudi oil pipeline.",
+        "positions": [
+          {
+            "outlet": "The Guardian",
+            "claim": "Saudi Arabia blames drones from Iraq."
+          },
+          {
+            "outlet": "AP",
+            "claim": "Iraq states the pipeline attack originated from its territory."
+          },
+          {
+            "outlet": "Reuters",
+            "claim": "Trump says Iran is probably responsible for the attack."
+          }
+        ]
+      },
+      {
+        "point": "The broader geopolitical context of the events, specifically linking them to a 'US-Iran war' or 'US-Israeli war against Iran'.",
+        "positions": [
+          {
+            "outlet": "The Guardian",
+            "claim": "Connects the pipeline's increased use to the start of a 'US-Israeli war against Iran' and links Yemen's conflict to a 'US-Iran war'."
+          },
+          {
+            "outlet": "Al Jazeera",
+            "claim": "Focuses on Houthi strategic control without explicitly drawing links to a broader 'US-Iran war'."
+          },
+          {
+            "outlet": "AP",
+            "claim": "Presents events as part of 'Mideast developments' without explicit connection to a 'US-Iran war'."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Guardian",
+        "note": "Led with the geopolitical context, linking events to a broader 'US-Iran war' and highlighting the humanitarian impact in Yemen."
+      },
+      {
+        "outlet": "Al Jazeera",
+        "note": "Focused directly on the Houthis' strategic gains, emphasizing their control over key waterways."
+      },
+      {
+        "outlet": "Reuters",
+        "note": "Provided concise updates on the events, including official statements and attributed accusations regarding responsibility."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Bab al-Mandab Strait",
+        "plain": "A narrow waterway between Yemen and Djibouti, connecting the Red Sea to the Gulf of Aden, crucial for international shipping."
+      },
+      {
+        "term": "Strait of Hormuz",
+        "plain": "A narrow sea passage between the Persian Gulf and the Gulf of Oman, vital for a large portion of the world's oil shipments."
+      },
+      {
+        "term": "Houthi",
+        "plain": "An armed political and religious movement in Yemen, currently controlling significant parts of the country."
+      }
+    ],
+    "people": [
+      {
+        "name": "Donald Trump",
+        "who": "The former President of the United States, who commented on Iran's probable responsibility for the pipeline attack."
+      }
+    ],
+    "id": "485a3fac6dd0e9949fe76538400d7731",
+    "source_count": 7,
+    "published": ""
+  },
+  {
+    "headline": "Tamil Nadu Bypolls Set; CM Vijay Faces Opposition Over UK Trip",
+    "read_seconds": 90,
+    "topics": [
+      "politics"
+    ],
+    "affects": [
+      "voters",
+      "parties",
+      "citizens"
+    ],
+    "regions": [
+      "tamil nadu",
+      "national"
+    ],
+    "agreed_facts": [
+      {
+        "text": "Bypolls are scheduled for the Madurantakam and Dharapuram constituencies in Tamil Nadu on October 6.",
+        "sources": [
+          "The Hindu",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "The TVK, AIADMK, and Left parties have announced their candidates for these two bypoll constituencies.",
+        "sources": [
+          "The Hindu",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "Tamil Nadu Chief Minister C. Joseph Vijay recently undertook an official visit to the United Kingdom.",
+        "sources": [
+          "Hindustan Times",
+          "Indian Express"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The purpose and justification of Tamil Nadu CM C. Joseph Vijay's visit to the UK.",
+        "positions": [
+          {
+            "outlet": "Hindustan Times",
+            "claim": "The DMK criticised the trip as a personal visit to see actor Ajith Kumar's car race."
+          },
+          {
+            "outlet": "Hindustan Times",
+            "claim": "The TVK defended the meeting as part of efforts to promote 'Brand Tamil Nadu'."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Hindu",
+        "note": "Focused on the political implications of the bypolls, including candidate announcements and opposition accusations regarding governance issues like power cuts and price rise."
+      },
+      {
+        "outlet": "Hindustan Times",
+        "note": "Highlighted the political controversy surrounding CM Vijay's UK visit, detailing the opposing views from the DMK and the TVK."
+      },
+      {
+        "outlet": "Indian Express",
+        "note": "Emphasized the celebrity aspect of CM Vijay's UK trip, particularly his interactions with film stars Ajith Kumar and Trisha Krishnan."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Bypolls",
+        "plain": "Elections held to fill a political office that has become vacant before the next general election."
+      },
+      {
+        "term": "Constituencies",
+        "plain": "A geographical area whose voters elect a representative to a legislative body."
+      }
+    ],
+    "people": [
+      {
+        "name": "C. Joseph Vijay",
+        "who": "The Chief Minister of Tamil Nadu and a prominent figure in the ruling TVK party."
+      },
+      {
+        "name": "Udhayanidhi Stalin",
+        "who": "A prominent leader of the opposition DMK party and former Deputy Chief Minister of Tamil Nadu."
+      },
+      {
+        "name": "Ajith Kumar",
+        "who": "A popular Indian actor and race car driver, whose Silverstone race CM Vijay reportedly attended in the UK."
+      }
+    ],
+    "id": "9672494ebca44ba579869f5c1cae7243",
+    "source_count": 5,
+    "published": ""
+  },
+  {
+    "headline": "BRICS Dinner Menu Sparks Political Row Over Non-Veg Remarks",
+    "read_seconds": 90,
+    "topics": [
+      "politics",
+      "culture"
+    ],
+    "affects": [
+      "politicians",
+      "delegates",
+      "public opinion"
+    ],
+    "regions": [
+      "national"
+    ],
+    "agreed_facts": [
+      {
+        "text": "Rahul Gandhi stated that 80% of Indians are non-vegetarian and find non-vegetarian food delicious.",
+        "sources": [
+          "The Hindu",
+          "India Today",
+          "Livemint"
+        ]
+      },
+      {
+        "text": "The BRICS summit dinner menu, hosted by Prime Minister Narendra Modi, was entirely vegetarian.",
+        "sources": [
+          "The Hindu",
+          "India Today",
+          "Livemint",
+          "Hindustan Times"
+        ]
+      },
+      {
+        "text": "Rahul Gandhi's remarks on dietary preferences elicited responses from leaders of the Bharatiya Janata Party (BJP).",
+        "sources": [
+          "Livemint",
+          "India Today"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The intended message or implication of Rahul Gandhi's statement about Indian dietary habits.",
+        "positions": [
+          {
+            "outlet": "The Hindu",
+            "claim": "Presents it as a direct statement about Indian food habits, implying appreciation for non-vegetarian cuisine."
+          },
+          {
+            "outlet": "India Today",
+            "claim": "Characterizes it as a 'debate' and a 'veiled jibe' at the BRICS dinner menu."
+          }
+        ]
+      },
+      {
+        "point": "The appropriateness of serving an exclusively vegetarian menu at a major international diplomatic event.",
+        "positions": [
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Quotes Priyanka Chaturvedi suggesting organizers should consider diverse dietary preferences for global guests."
+          },
+          {
+            "outlet": "Livemint",
+            "claim": "Quotes Union Minister Kiren Rijiju defending the menu, stating guests 'relished Indian vegetarian cuisine'."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Hindu",
+        "note": "Leads by directly quoting Rahul Gandhi's statement and identifying the BRICS dinner as the immediate context."
+      },
+      {
+        "outlet": "India Today",
+        "note": "Focuses on the 'debate' and 'jibe' aspect, emphasizing the political controversy generated by Rahul Gandhi's comment."
+      },
+      {
+        "outlet": "Livemint",
+        "note": "Frames the event as 'Dinner Diplomacy' and highlights the political fallout and the defensive response from the ruling BJP."
+      }
+    ],
+    "jargon": [
       {
         "term": "Naraaz fufas",
-        "plain": "A Hindi term literally meaning 'angry paternal aunts' husbands,' used colloquially to refer to disgruntled relatives who complain or criticize."
-      },
-      {
-        "term": "BRICS Summit",
-        "plain": "An annual meeting of the heads of state or government of five major emerging national economies: Brazil, Russia, India, China, and South Africa."
+        "plain": "A Hindi idiom, sometimes used humorously in political contexts, referring to disgruntled or critical paternal aunts' husbands."
       }
     ],
     "people": [
       {
         "name": "Rahul Gandhi",
-        "who": "A prominent Indian politician and a leading figure of the Indian National Congress party."
+        "who": "A prominent leader of the Indian National Congress party and a Member of Parliament."
       },
       {
         "name": "Narendra Modi",
@@ -204,7 +430,7 @@
       },
       {
         "name": "Kiren Rijiju",
-        "who": "An Indian politician serving as a Union Minister in the Government of India, who publicly responded to Rahul Gandhi's remarks."
+        "who": "An Indian politician and Union Minister, a member of the Bharatiya Janata Party (BJP)."
       }
     ],
     "id": "78fba406d64a09a6cb226d640d4d8e7c",
@@ -212,79 +438,78 @@
     "published": ""
   },
   {
-    "headline": "India's Broad Sporting Calendar: Asia Cups and Global Matches",
+    "headline": "India competes in multiple Asia Cup finals across various sports",
     "read_seconds": 90,
     "topics": [
-      "sport",
-      "world"
+      "sport"
     ],
     "affects": [
-      "Sports fans",
       "athletes",
-      "broadcasting industry"
+      "sports fans",
+      "national teams"
     ],
     "regions": [
-      "India",
-      "Asia",
-      "UAE",
-      "Spain"
+      "national",
+      "south asia",
+      "east asia",
+      "china"
     ],
     "agreed_facts": [
       {
-        "text": "India has secured recent victories in various Junior Hockey Asia Cup tournaments.",
-        "sources": [
-          "Hindustan Times",
-          "Deccan Herald",
-          "Hindustan Times"
-        ]
-      },
-      {
-        "text": "India is scheduled to participate in upcoming Asia Cup cricket finals against Sri Lanka.",
+        "text": "India's national sports teams are actively competing in various regional tournaments.",
         "sources": [
           "Indian Express",
           "Al Jazeera",
+          "Hindustan Times",
+          "Deccan Herald",
           "NDTV"
         ]
       },
       {
-        "text": "Live streaming options are available for various international sports events involving Indian teams.",
+        "text": "The 'Asia Cup' is a recurring tournament name used for championships across different sports.",
         "sources": [
-          "NDTV",
-          "NDTV",
+          "Indian Express",
+          "Al Jazeera",
+          "Hindustan Times",
+          "Deccan Herald",
           "NDTV"
         ]
       },
       {
-        "text": "The Men's Junior Hockey Asia Cup victory for India was achieved by defeating South Korea.",
+        "text": "India has recently won or is competing in multiple 'Asia Cup' finals against teams like Sri Lanka, South Korea, and China.",
         "sources": [
-          "Hindustan Times"
+          "Indian Express",
+          "Al Jazeera",
+          "Hindustan Times",
+          "Deccan Herald",
+          "NDTV"
+        ]
+      },
+      {
+        "text": "These matches involve both men's and women's teams, across junior and senior levels.",
+        "sources": [
+          "Indian Express",
+          "Hindustan Times",
+          "Deccan Herald",
+          "NDTV"
         ]
       }
     ],
     "contested": [
       {
-        "point": "The specific number of consecutive Men's Junior Hockey Asia Cup titles won by India.",
-        "positions": [
-          {
-            "outlet": "Hindustan Times",
-            "claim": "States India won for the 'fourth time in a row'."
-          },
-          {
-            "outlet": "Deccan Herald",
-            "claim": "Reports India completed a 'junior Asia Cup hockey hat-trick'."
-          }
-        ]
-      },
-      {
-        "point": "The primary sport of an upcoming India vs Sri Lanka Asia Cup Final.",
+        "point": "The specific 'Asia Cup' event being reported by different publications.",
         "positions": [
           {
             "outlet": "Indian Express",
-            "claim": "Refers generally to an 'Asia Cup final' implying men's cricket."
+            "claim": "Highlights India vs Sri Lanka for the 'eighth Asia Cup title tonight', implying a men's cricket final."
+          },
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Focuses on India winning the Men's Junior Hockey Asia Cup against South Korea."
           },
           {
             "outlet": "NDTV",
-            "claim": "Specifically highlights the 'Women's Asia Cup 2026 Final'."
+            "claim": "Centers on the India vs Sri Lanka Women's Asia Cup 2026 final, implying a women's cricket match."
           }
         ]
       }
@@ -292,33 +517,605 @@
     "framing": [
       {
         "outlet": "Indian Express",
-        "note": "Highlights upcoming India vs Sri Lanka Asia Cup (cricket) final as a top national headline for daily news."
+        "note": "Leads with India vying for an Asia Cup cricket title, setting a competitive tone for an upcoming match."
       },
       {
         "outlet": "Hindustan Times",
-        "note": "Emphasizes India's consistent success and consecutive wins in Men's Junior Hockey Asia Cup."
+        "note": "Reports a recent victory in the Men's Junior Hockey Asia Cup, focusing on national achievement."
       },
       {
         "outlet": "NDTV",
-        "note": "Focuses on the upcoming Women's Asia Cup 2026 final, providing practical live streaming information."
+        "note": "Presents live streaming details for a European club football league match, an unrelated international sporting event."
       }
     ],
     "jargon": [
       {
+        "term": "Asia Cup",
+        "plain": "A multi-sport tournament often referring to regional championships in Asia across different disciplines."
+      },
+      {
         "term": "T20I",
-        "plain": "Twenty20 International, a short-format cricket match played between international teams."
+        "plain": "Twenty20 International, a short format of cricket played between national teams."
       },
       {
         "term": "LaLiga",
-        "plain": "The top professional football league in Spain."
-      },
-      {
-        "term": "Hat-trick",
-        "plain": "In sports, achieving three successes of the same kind, often consecutively, such as three goals or three wins."
+        "plain": "The top professional football league in Spain, featuring club teams."
       }
     ],
     "people": [],
     "id": "4446208f25fc1b7df056a10490ef3a0e",
+    "source_count": 5,
+    "published": ""
+  },
+  {
+    "headline": "Modi, Xi meet at BRICS summit amid thawing India-China ties",
+    "read_seconds": 90,
+    "topics": [
+      "politics",
+      "world"
+    ],
+    "affects": [
+      "bilateral relations",
+      "diplomacy",
+      "international trade"
+    ],
+    "regions": [
+      "national",
+      "china",
+      "global"
+    ],
+    "agreed_facts": [
+      {
+        "text": "Chinese President Xi Jinping attended the BRICS summit in India.",
+        "sources": [
+          "Reuters",
+          "The Guardian",
+          "AP",
+          "Hindustan Times"
+        ]
+      },
+      {
+        "text": "Indian Prime Minister Narendra Modi and President Xi held a meeting on the sidelines of the summit.",
+        "sources": [
+          "Reuters",
+          "The Guardian",
+          "Deccan Herald",
+          "The Hindu",
+          "AP",
+          "Hindustan Times"
+        ]
+      },
+      {
+        "text": "The leaders discussed improving bilateral relations, including border peace and business links.",
+        "sources": [
+          "Reuters",
+          "The Guardian",
+          "The Hindu",
+          "AP"
+        ]
+      },
+      {
+        "text": "The meeting is widely seen as an attempt to reset or thaw previously strained India-China ties.",
+        "sources": [
+          "Reuters",
+          "The Guardian",
+          "AP"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The true nature or depth of the 'thaw' in India-China relations following the meeting.",
+        "positions": [
+          {
+            "outlet": "The Guardian",
+            "claim": "Describes a 'red-carpet welcome' and 'public display of thawing relations' as a step towards reconciliation amidst competition."
+          },
+          {
+            "outlet": "Deccan Herald / The Hindu",
+            "claim": "Reports the Congress party's criticism of PM Modi's approach as 'calibrated capitulation', implying concessions rather than a genuine mutual thaw."
+          }
+        ]
+      },
+      {
+        "point": "The primary focus or most significant aspect of the interaction between Modi and Xi at the summit.",
+        "positions": [
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Emphasizes a specific moment where PM Modi paused his speech to check on President Xi's apparent discomfort, highlighting a personal interaction."
+          },
+          {
+            "outlet": "Reuters / The Guardian / AP",
+            "claim": "Focus on the broader diplomatic and strategic implications of the meeting, such as discussions on border peace, business links, and global roles."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Guardian",
+        "note": "Led with the visual of Xi's red carpet welcome, framing the event as a public display of thawing relations amidst quiet competition for global leadership."
+      },
+      {
+        "outlet": "Deccan Herald",
+        "note": "Focused on the domestic political criticism, specifically the Congress party's accusation of 'calibrated capitulation' against PM Modi."
+      },
+      {
+        "outlet": "Hindustan Times",
+        "note": "Highlighted a specific, unexpected moment where PM Modi paused his speech to check on President Xi's apparent discomfort, emphasizing a human interaction."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Calibrated capitulation",
+        "plain": "A critical term suggesting a carefully planned and measured act of surrender or concession in negotiations."
+      },
+      {
+        "term": "Thaw",
+        "plain": "In diplomacy, this refers to a period of improved relations and reduced tension between countries after a period of hostility or strain."
+      },
+      {
+        "term": "BRICS",
+        "plain": "An acronym representing an association of five major emerging national economies: Brazil, Russia, India, China, and South Africa."
+      }
+    ],
+    "people": [
+      {
+        "name": "Narendra Modi",
+        "who": "The Prime Minister of India, who hosted the BRICS summit and met with President Xi Jinping."
+      },
+      {
+        "name": "Xi Jinping",
+        "who": "The President of China, who attended the BRICS summit in India and held bilateral talks with PM Modi."
+      },
+      {
+        "name": "Jairam Ramesh",
+        "who": "The Congress General Secretary in charge of Communications, who criticized PM Modi's meeting with President Xi."
+      }
+    ],
+    "id": "1019ab94d6d526eb28ceac89f830a7de",
+    "source_count": 9,
+    "published": ""
+  },
+  {
+    "headline": "BRICS Summit Drives Global Diplomacy With Key Bilateral Meetings",
+    "read_seconds": 90,
+    "topics": [
+      "politics",
+      "world"
+    ],
+    "affects": [
+      "World leaders",
+      "International relations",
+      "Summit attendees"
+    ],
+    "regions": [
+      "national",
+      "delhi",
+      "global",
+      "africa"
+    ],
+    "agreed_facts": [
+      {
+        "text": "The BRICS Summit was held in New Delhi, India, at Bharat Mandapam.",
+        "sources": [
+          "Hindustan Times",
+          "Livemint",
+          "Indian Express",
+          "Times of India",
+          "Deccan Herald",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "Prime Minister Narendra Modi held multiple bilateral meetings on the sidelines of the summit.",
+        "sources": [
+          "Hindustan Times",
+          "Times of India",
+          "Deccan Herald",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "PM Modi met with Egyptian President Abdel Fattah El-Sisi during the summit.",
+        "sources": [
+          "Hindustan Times",
+          "New Indian Express"
+        ]
+      },
+      {
+        "text": "Iranian President Masoud Pezeshkian met with UAE Crown Prince Sheikh Khaled bin Mohamed bin Zayed Al Nahyan.",
+        "sources": [
+          "Livemint",
+          "Indian Express"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The most prominent diplomatic engagement during the summit.",
+        "positions": [
+          {
+            "outlet": "Livemint",
+            "claim": "Highlighted the meeting between Iranian and UAE leaders as significant for regional Middle East relations."
+          },
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Emphasized PM Modi's bilateral meetings with Egypt and Russia as central to the summit's diplomatic activity."
+          }
+        ]
+      },
+      {
+        "point": "The characterization of diplomatic efforts by PM Modi.",
+        "positions": [
+          {
+            "outlet": "Hindustan Times",
+            "claim": "Focused on an informal interaction ('Carplomacy') between Modi and Putin as a symbolic highlight."
+          },
+          {
+            "outlet": "Times of India",
+            "claim": "Emphasized the high volume and breadth of PM Modi's formal engagements, calling it a 'diplomatic marathon'."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "Hindustan Times",
+        "note": "Led with the informal 'carplomacy' moment between Modi and Putin, emphasizing personal diplomacy and symbolism."
+      },
+      {
+        "outlet": "Livemint",
+        "note": "Focused on the Iran-UAE meeting, placing it within the context of broader Middle East regional tensions."
+      },
+      {
+        "outlet": "Times of India",
+        "note": "Highlighted PM Modi's extensive diplomatic schedule, emphasizing India's active role and the sheer volume of engagements."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Carplomacy",
+        "plain": "An informal term for diplomatic discussions or interactions that happen during a car ride."
+      },
+      {
+        "term": "Bharat Mandapam",
+        "plain": "An international convention and exhibition center in New Delhi, India, used for hosting major events."
+      },
+      {
+        "term": "BRICS",
+        "plain": "An acronym for an association of five major emerging national economies: Brazil, Russia, India, China, and South Africa."
+      }
+    ],
+    "people": [
+      {
+        "name": "Narendra Modi",
+        "who": "Prime Minister of India and host of the BRICS Summit, who engaged in multiple bilateral meetings."
+      },
+      {
+        "name": "Abdel Fattah El-Sisi",
+        "who": "President of Egypt, who met with PM Modi on the sidelines of the summit."
+      },
+      {
+        "name": "Vladimir Putin",
+        "who": "President of Russia, who had a bilateral meeting and an informal interaction with PM Modi."
+      }
+    ],
+    "id": "8c864d10978e40b2574fa9dc636926ea",
+    "source_count": 6,
+    "published": ""
+  },
+  {
+    "headline": "BRICS Summit Concludes in Delhi; Leaders Gather, Xi Absent From Dinner",
+    "read_seconds": 90,
+    "topics": [
+      "politics",
+      "world",
+      "culture"
+    ],
+    "affects": [
+      "global leaders",
+      "diplomacy",
+      "international relations"
+    ],
+    "regions": [
+      "delhi",
+      "national",
+      "china",
+      "global"
+    ],
+    "agreed_facts": [
+      {
+        "text": "The 18th BRICS Summit was held in New Delhi, hosted by India.",
+        "sources": [
+          "Livemint",
+          "Hindustan Times"
+        ]
+      },
+      {
+        "text": "Prime Minister Narendra Modi hosted a gala dinner for attending leaders.",
+        "sources": [
+          "Livemint",
+          "Indian Express"
+        ]
+      },
+      {
+        "text": "Chinese President Xi Jinping did not attend the gala dinner.",
+        "sources": [
+          "Indian Express",
+          "Livemint"
+        ]
+      },
+      {
+        "text": "Malaysian Prime Minister Anwar Ibrahim performed a Bollywood song at the dinner.",
+        "sources": [
+          "Livemint",
+          "Indian Express"
+        ]
+      }
+    ],
+    "contested": [],
+    "framing": [
+      {
+        "outlet": "Indian Express",
+        "note": "Highlights the cultural and personal visit of Iranian dignitary Pezeshkian and his daughter, focusing on India's hospitality and cultural engagement."
+      },
+      {
+        "outlet": "Livemint",
+        "note": "Emphasizes the culinary details of the event, specifically the vegetarian menu served at PM Modi's gala dinner."
+      },
+      {
+        "outlet": "Hindustan Times",
+        "note": "Focuses on the departure of Russian President Vladimir Putin, framing it as a significant and closely observed conclusion to the 'historic' summit."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "BRICS",
+        "plain": "An acronym for an intergovernmental organization comprising Brazil, Russia, India, China, and South Africa."
+      },
+      {
+        "term": "Gala dinner",
+        "plain": "A large, formal social event, often held to celebrate a special occasion or to raise money, typically featuring fine dining and entertainment."
+      },
+      {
+        "term": "Bilateral talks",
+        "plain": "Official discussions or negotiations held between representatives of two countries."
+      }
+    ],
+    "people": [
+      {
+        "name": "Narendra Modi",
+        "who": "The Prime Minister of India, who hosted the BRICS Summit and its associated events in New Delhi."
+      },
+      {
+        "name": "Xi Jinping",
+        "who": "The President of China, whose absence from the summit's gala dinner was noted by several publications."
+      },
+      {
+        "name": "Vladimir Putin",
+        "who": "The President of Russia, who attended the BRICS Summit and held bilateral talks with the Indian Prime Minister."
+      }
+    ],
+    "id": "d55e6012e2b5c119e203cc7ea9aa5b73",
+    "source_count": 3,
+    "published": ""
+  },
+  {
+    "headline": "Ferries Sink in Pacific, Dozens Missing After Rough Seas",
+    "read_seconds": 90,
+    "topics": [
+      "world",
+      "politics"
+    ],
+    "affects": [
+      "maritime safety",
+      "travelers",
+      "families"
+    ],
+    "regions": [
+      "national",
+      "global"
+    ],
+    "agreed_facts": [
+      {
+        "text": "A ferry sank in the Java Sea off Indonesia, carrying over 240 people.",
+        "sources": [
+          "Times of India",
+          "The Guardian",
+          "Al Jazeera",
+          "Reuters",
+          "Livemint"
+        ]
+      },
+      {
+        "text": "A separate ferry sank off Vanuatu, with over 40 people onboard.",
+        "sources": [
+          "Al Jazeera",
+          "The Guardian"
+        ]
+      },
+      {
+        "text": "Both incidents resulted in confirmed deaths and numerous missing persons.",
+        "sources": [
+          "Times of India",
+          "Al Jazeera",
+          "The Guardian",
+          "Reuters",
+          "Livemint"
+        ]
+      },
+      {
+        "text": "Search and rescue operations are ongoing in both locations.",
+        "sources": [
+          "Times of India",
+          "Al Jazeera",
+          "The Guardian",
+          "Reuters",
+          "Livemint"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "Casualty and rescue figures for the Indonesian ferry sinking.",
+        "positions": [
+          {
+            "outlet": "Times of India, The Guardian, Al Jazeera, Reuters",
+            "claim": "Reported 6 dead, 107 rescued, and approximately 130 missing."
+          },
+          {
+            "outlet": "Livemint",
+            "claim": "Reported 1 dead, 103 evacuated, and 140 missing."
+          }
+        ]
+      },
+      {
+        "point": "Status of search and rescue operations for the Vanuatu ferry.",
+        "positions": [
+          {
+            "outlet": "Al Jazeera",
+            "claim": "Stated the government was \"scaling back operations in open waters.\""
+          },
+          {
+            "outlet": "The Guardian",
+            "claim": "Indicated \"search and rescue efforts continue.\""
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Guardian",
+        "note": "Focused on the human impact and direct government statements, providing detailed accounts for both incidents."
+      },
+      {
+        "outlet": "Livemint",
+        "note": "Presented the Indonesian incident with a 'What we know so far' angle, highlighting early and differing figures."
+      },
+      {
+        "outlet": "Al Jazeera",
+        "note": "Emphasized the high number of missing persons and the severity of the incidents through its headlines for both events."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "capsizes",
+        "plain": "When a boat or ship overturns or rolls over in the water."
+      },
+      {
+        "term": "Basarnas",
+        "plain": "Indonesia's national search and rescue agency."
+      },
+      {
+        "term": "evacuated",
+        "plain": "To remove people from a place of danger to a safe location."
+      }
+    ],
+    "people": [],
+    "id": "2543af33bb4c6e4ccd8d1cf2cc944a3e",
+    "source_count": 5,
+    "published": ""
+  },
+  {
+    "headline": "Maratha Quota Leader Alleges Death Plot Amid Mumbai March Plans",
+    "read_seconds": 90,
+    "topics": [
+      "politics",
+      "jobs"
+    ],
+    "affects": [
+      "Maratha community",
+      "government",
+      "commuters"
+    ],
+    "regions": [
+      "maharashtra",
+      "national"
+    ],
+    "agreed_facts": [
+      {
+        "text": "Manoj Jarange Patil is a prominent activist leading protests for Maratha reservation.",
+        "sources": [
+          "The Hindu",
+          "Indian Express",
+          "Times of India",
+          "India Today",
+          "Deccan Herald"
+        ]
+      },
+      {
+        "text": "Jarange Patil is planning a march to Mumbai to press for reservation demands.",
+        "sources": [
+          "The Hindu",
+          "Indian Express",
+          "Times of India"
+        ]
+      },
+      {
+        "text": "Jarange Patil alleges a conspiracy to kill him during his planned Mumbai march.",
+        "sources": [
+          "The Hindu",
+          "Times of India",
+          "India Today",
+          "Deccan Herald"
+        ]
+      },
+      {
+        "text": "Jarange Patil has stated he will accept death but not surrender to government pressure.",
+        "sources": [
+          "The Hindu",
+          "Times of India",
+          "Deccan Herald"
+        ]
+      }
+    ],
+    "contested": [
+      {
+        "point": "The primary impact or concern surrounding Jarange Patil's planned Mumbai march.",
+        "positions": [
+          {
+            "outlet": "Indian Express",
+            "claim": "The timing of the march amid Ganeshotsav raises significant worry for the government, suggesting strategic disruption."
+          },
+          {
+            "outlet": "Times of India",
+            "claim": "The focus is on Jarange Patil's unwavering resolve and allegations of a conspiracy, along with claims of MLAs attempting to dissuade supporters, highlighting the protest's internal and external pressures."
+          }
+        ]
+      }
+    ],
+    "framing": [
+      {
+        "outlet": "The Hindu",
+        "note": "Led with Jarange Patil's serious allegation of a conspiracy to kill him and his defiant stance against surrender."
+      },
+      {
+        "outlet": "Indian Express",
+        "note": "Focused on why the planned Mumbai march, particularly its timing during Ganeshotsav, is causing concern for the government."
+      },
+      {
+        "outlet": "Times of India",
+        "note": "While reporting the conspiracy allegation, it also included details about Jarange's planned indefinite hunger strike and claims of political attempts to undermine the protest."
+      }
+    ],
+    "jargon": [
+      {
+        "term": "Maratha quota",
+        "plain": "A specific system of affirmative action in India providing a percentage of government jobs and educational seats to the Maratha community."
+      },
+      {
+        "term": "Ganeshotsav",
+        "plain": "An annual Hindu festival celebrating the birth of Lord Ganesha, often involving public celebrations and processions in western and southern India."
+      }
+    ],
+    "people": [
+      {
+        "name": "Manoj Jarange Patil",
+        "who": "An activist leading the Maratha reservation protests in Maharashtra."
+      }
+    ],
+    "id": "60e5c76b1fc7d9da710d4aaff163d769",
     "source_count": 5,
     "published": ""
   }

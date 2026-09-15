@@ -4,13 +4,14 @@
 import hashlib
 import json
 import os
-import re
 import time
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google import genai
+from summarise import build_prompt, strip_fences, normalise_regions
 
 # ── Settings ───────────────────────────────────────────────────────────────────
-NUM_GROUPS   = 5
+NUM_GROUPS   = 30
 MAX_ARTICLES = 8
 INPUT_FILE   = "groups_clean.json"
 OUTPUT_FILE  = "stories.json"
@@ -23,13 +24,13 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 
+# ── Quota circuit-breaker ──────────────────────────────────────────────────────
+_quota_exhausted     = threading.Event()
+_quota_lock          = threading.Lock()
+_consecutive_429s    = [0]   # mutable so threads can share it via closure
+
+
 # ── Helpers ────────────────────────────────────────────────────────────────────
-
-def strip_fences(text):
-    """Remove ```json … ``` wrappers if Gemini added them despite being told not to."""
-    text = re.sub(r"^```[a-zA-Z]*\n?", "", text.strip())
-    return re.sub(r"\n?```$", "", text.strip())
-
 
 def latest_date(articles):
     """Return the most recent published date from a list of article dicts, or ''."""
@@ -43,68 +44,37 @@ def make_story(group_idx, group):
     Returns None if the call or JSON parse fails, so the caller can skip it.
     This function is run in a worker thread — one thread per group.
     """
+    if _quota_exhausted.is_set():
+        return None
+
     articles = group["articles"][:MAX_ARTICLES]
+    prompt = build_prompt(articles)
 
-    # Build the articles block that goes into the prompt
-    articles_text = ""
-    for i, art in enumerate(articles, start=1):
-        articles_text += (
-            f"[{i}] Source: {art['source']}\n"
-            f"    Title:   {art['title']}\n"
-            f"    Summary: {art['summary']}\n\n"
-        )
-
-    prompt = f"""You are a neutral news analyst. I will give you {len(articles)} articles about the same news event from different publications. Analyse them and return a single JSON object.
-
-RULES:
-- Return ONLY the JSON object. No markdown, no code fences, no preamble, no explanation.
-- Every field must be present even if the list is empty.
-- Be neutral. Do not favour any outlet.
-- Obey every length limit below exactly — do not exceed them.
-- "topics": choose 1 to 3 tags from this list only: politics, economy, jobs, climate, tech, sport, campus, courts, culture, health, crime, world
-
-REQUIRED JSON SHAPE (fill in the values, keep the exact keys):
-{{
-  "headline": "max 10 words, punchy newspaper headline style, no spin",
-  "read_seconds": 90,
-  "topics": ["politics", "world"],
-  "affects": ["max 3 tags, each 1-3 words, e.g. commuters"],
-  "regions": ["geographic regions this story concerns, e.g. Karnataka, national, global"],
-  "agreed_facts": [
-    {{"text": "a fact most or all papers agree on — at most 4 items total", "sources": ["Paper A", "Paper B"]}}
-  ],
-  "contested": [
-    {{"point": "what the papers disagree on or frame differently — at most 2 items total",
-      "positions": [
-        {{"outlet": "Paper A", "claim": "how Paper A framed this point"}},
-        {{"outlet": "Paper B", "claim": "how Paper B framed this point"}}
-      ]
-    }}
-  ],
-  "framing": [
-    {{"outlet": "Paper A", "note": "the angle this paper led with — at most 3 outlets, pick the most different ones"}}
-  ],
-  "jargon": [
-    {{"term": "a hard word from the story — at most 3 terms, pick the hardest", "plain": "one plain-English sentence"}}
-  ],
-  "people": [
-    {{"name": "full name — at most 3 people, the most important ones", "who": "one sentence on who they are"}}
-  ]
-}}
-
-ARTICLES:
-{articles_text}"""
-
+    time.sleep(1.5)
+    all_429 = True
     delays = [2, 8, 20]
     for attempt, wait in enumerate(delays, start=1):
         try:
             response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
             raw = response.text
+            with _quota_lock:
+                _consecutive_429s[0] = 0
             break
         except Exception as exc:
-            print(f"  [group {group_idx}] attempt {attempt} failed: {exc} — retrying in {wait}s")
-            time.sleep(wait)
+            if "429" in str(exc):
+                print(f"  [group {group_idx}] attempt {attempt} rate-limited (429) — retrying in 65s")
+                time.sleep(65)
+            else:
+                all_429 = False
+                print(f"  [group {group_idx}] attempt {attempt} failed: {exc} — retrying in {wait}s")
+                time.sleep(wait)
     else:
+        if all_429:
+            with _quota_lock:
+                _consecutive_429s[0] += 1
+                if _consecutive_429s[0] >= 2 and not _quota_exhausted.is_set():
+                    _quota_exhausted.set()
+                    print("daily quota exhausted — skipping remaining groups")
         return None
 
     cleaned = strip_fences(raw)
@@ -114,6 +84,8 @@ ARTICLES:
         print(f"  [group {group_idx}] ✗ JSON parse failed: {err}")
         print(f"  [group {group_idx}]   Raw (first 400 chars): {raw[:400]}")
         return None
+
+    story["regions"] = normalise_regions(story.get("regions", []))
 
     # Add fields that are computed from the group structure, not by Gemini
     story["id"]           = hashlib.md5(
@@ -138,7 +110,7 @@ print(f"Loaded {len(groups)} groups — processing first {len(selected)} in para
 # regardless of which thread finishes first.
 stories = [None] * len(selected)
 
-with ThreadPoolExecutor(max_workers=len(selected)) as pool:
+with ThreadPoolExecutor(max_workers=2) as pool:
     futures = {
         pool.submit(make_story, idx, group): idx
         for idx, group in enumerate(selected)
